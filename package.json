@@ -16,11 +16,12 @@
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
-    "@types/mysql": "^2.15.8",
-    "@types/negotiator": "^0.6.1",
+    "@types/jest": "^25.1.4",
     "@types/node": "^13.5.1",
+    "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.1",
+    "ts-jest": "^25.2.1",
     "tslint": "^6.0.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.1.0",

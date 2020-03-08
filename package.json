@@ -1,0 +1,29 @@
+{
+  "name": "seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf dist/* && tsc && node dist/main.js",
+    "transpile": "rimraf dist/* && tsc"
+  },
+  "keywords": [],
+  "author": "Костя Третяк",
+  "license": "MIT",
+  "dependencies": {
+    "@ts-stack/di": "^1.0.0",
+    "@ts-stack/mod": "^1.0.0-beta.8",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.8",
+    "@types/negotiator": "^0.6.1",
+    "@types/node": "^13.5.1",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.1.0",
+    "typescript": "^3.8.2"
+  }
+}

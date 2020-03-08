@@ -21,10 +21,4 @@ curl -isS localhost:8080
 
 ## Example
 
-You can switch to `example` branch to see more examples of implementation the application:
-
-```bash
-git fetch
-git checkout example
-npm i
-```
+You can see more example usage in [@ts-stack/mod repository](https://github.com/ts-stack/mod/tree/master/examples)

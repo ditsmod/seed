@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "rimraf dist/* && tsc && node dist/main.js",
-    "transpile": "rimraf dist/* && tsc"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Костя Третяк",

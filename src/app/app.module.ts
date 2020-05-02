@@ -16,9 +16,8 @@ import { LoggerService } from './services-per-app/logger.service';
   imports: [HelloWorldModule],
   exports: [],
   controllers: [],
-  routes: [],
   providersPerApp: [{ provide: Logger, useClass: LoggerService }],
   providersPerMod: [],
-  providersPerReq: []
+  providersPerReq: [],
 })
 export class AppModule {}

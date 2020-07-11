@@ -17,6 +17,7 @@ From second terminal, check work:
 
 ```bash
 curl -isS localhost:8080
+curl -isS localhost:8080/throw-error
 ```
 
 ## Example

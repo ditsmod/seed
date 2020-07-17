@@ -460,13 +460,12 @@
   resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.0.0.tgz#5c742ebc89ae1ffa5d60e42efe7497e0dacad58f"
   integrity sha512-4qU/Rfn33GsjIs8X55iDhKwVnPd3Bn6UO29C73+SVzACe3OTKCBLv8mRaMpYAXiQQYYYqpEpSwDKmTcsOJ/8oA==
 
-"@ts-stack/mod@^1.0.0-beta.24":
-  version "1.0.0-beta.24"
-  resolved "https://registry.yarnpkg.com/@ts-stack/mod/-/mod-1.0.0-beta.24.tgz#48dee04126d23c4128534b5779953addf4adde2d"
-  integrity sha512-BQOaGzrWi0NJAQiS24X4hK7AqwOptfrQN+nanHavLFUA4UJ8puc8UaUzkRJoJK1Sx3cEkQogWE68vVz1F/Rs8A==
+"@ts-stack/ditsmod@^1.0.0-beta.1":
+  version "1.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.1.tgz#5897c8fb2a5c29540768947c07e48177cd367302"
+  integrity sha512-i4d5gly19Ub/wenPgOiXymQbVK9Ap4Aj93qfoK5eNGEVsVp2w4JNodJJ3LYHGwyJS/TTuqTevE0Lj+NYnyhztA==
   dependencies:
     "@ts-stack/router" "^0.0.0-alpha.1"
-    reflect-metadata "^0.1.13"
 
 "@ts-stack/router@^0.0.0-alpha.1":
   version "0.0.0-alpha.2"

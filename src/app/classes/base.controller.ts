@@ -1,5 +1,5 @@
 import { Injectable } from '@ts-stack/di';
-import { ErrorHandler, Logger, Status, Request, Response } from '@ts-stack/mod';
+import { ErrorHandler, Logger, Status, Request, Response } from '@ts-stack/ditsmod';
 
 @Injectable()
 export abstract class BaseController implements ErrorHandler {

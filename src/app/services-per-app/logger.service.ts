@@ -1,5 +1,5 @@
 import { Injectable } from '@ts-stack/di';
-import { Logger } from '@ts-stack/mod';
+import { Logger } from '@ts-stack/ditsmod';
 
 @Injectable()
 export class LoggerService extends Logger {

@@ -1,14 +1,14 @@
 ## Description
 
-This is [@ts-stack/mod](https://github.com/ts-stack/mod) seed project.
+This is [@ts-stack/ditsmod](https://github.com/ts-stack/ditsmod) seed project.
 
 ## Usage
 
 From first terminal:
 
 ```bash
-git clone git@github.com:ts-stack/mod-seed.git
-cd mod-seed
+git clone git@github.com:ts-stack/ditsmod-seed.git
+cd ditsmod-seed
 npm i
 npm start
 ```
@@ -22,4 +22,4 @@ curl -isS localhost:8080/throw-error
 
 ## Example
 
-You can see more example usage in [@ts-stack/mod repository](https://github.com/ts-stack/mod/tree/master/examples)
+You can see more example usage in [@ts-stack/ditsmod repository](https://github.com/ts-stack/ditsmod/tree/master/examples)

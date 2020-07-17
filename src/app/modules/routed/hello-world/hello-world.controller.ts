@@ -1,4 +1,4 @@
-import { Controller, Request, Response, Route, Logger } from '@ts-stack/mod';
+import { Controller, Request, Response, Route, Logger } from '@ts-stack/ditsmod';
 
 import { BaseController } from '../../../classes/base.controller';
 

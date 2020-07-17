@@ -1,5 +1,5 @@
 {
-  "name": "mod-seed",
+  "name": "ditsmod-seed",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@ts-stack/di": "^1.0.0",
-    "@ts-stack/mod": "^1.0.0-beta.24",
+    "@ts-stack/ditsmod": "^1.0.0-beta.1",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {

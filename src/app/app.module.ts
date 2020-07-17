@@ -1,5 +1,5 @@
 import * as http from 'http';
-import { RootModule, Logger } from '@ts-stack/mod';
+import { RootModule, Logger } from '@ts-stack/ditsmod';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
 import { LoggerService } from './services-per-app/logger.service';

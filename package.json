@@ -12,8 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "@ts-stack/di": "^1.0.0",
-    "@ts-stack/ditsmod": "^1.0.0-beta.1",
-    "reflect-metadata": "^0.1.13"
+    "@ts-stack/ditsmod": "^1.0.0-beta.1"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",

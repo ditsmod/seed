@@ -1,8 +1,9 @@
 import * as http from 'http';
-import { RootModule, Logger } from '@ts-stack/ditsmod';
+import { RootModule, Logger, ControllerErrorHandler } from '@ts-stack/ditsmod';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
 import { LoggerService } from './services-per-app/logger.service';
+import { ErrorHandler } from './classes/error-handler';
 
 /**
  * Any one of these options are optional.
@@ -14,10 +15,10 @@ import { LoggerService } from './services-per-app/logger.service';
   listenOptions: { port: 8080, host: 'localhost' },
   prefixPerApp: '',
   imports: [HelloWorldModule],
-  exports: [],
+  exports: [{ provide: ControllerErrorHandler, useClass: ErrorHandler }],
   controllers: [],
   providersPerApp: [{ provide: Logger, useClass: LoggerService }],
   providersPerMod: [],
-  providersPerReq: [],
+  providersPerReq: [ControllerErrorHandler],
 })
 export class AppModule {}

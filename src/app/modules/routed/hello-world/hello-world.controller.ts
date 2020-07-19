@@ -1,12 +1,8 @@
 import { Controller, Request, Response, Route, Logger } from '@ts-stack/ditsmod';
 
-import { BaseController } from '../../../classes/base.controller';
-
 @Controller()
-export class HelloWorldController extends BaseController {
-  constructor(protected req: Request, protected res: Response, protected log: Logger) {
-    super(req, res, log);
-  }
+export class HelloWorldController {
+  constructor(private res: Response) {}
 
   @Route('GET')
   tellHello() {

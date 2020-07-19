@@ -460,12 +460,13 @@
   resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.0.0.tgz#5c742ebc89ae1ffa5d60e42efe7497e0dacad58f"
   integrity sha512-4qU/Rfn33GsjIs8X55iDhKwVnPd3Bn6UO29C73+SVzACe3OTKCBLv8mRaMpYAXiQQYYYqpEpSwDKmTcsOJ/8oA==
 
-"@ts-stack/ditsmod@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.1.tgz#5897c8fb2a5c29540768947c07e48177cd367302"
-  integrity sha512-i4d5gly19Ub/wenPgOiXymQbVK9Ap4Aj93qfoK5eNGEVsVp2w4JNodJJ3LYHGwyJS/TTuqTevE0Lj+NYnyhztA==
+"@ts-stack/ditsmod@^1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.4.tgz#653e735f37e98b9805d76811c586c152fe2f401b"
+  integrity sha512-Bl1tgDIyXisJDcc7REpIE3HlmJqOr8jsMEuw/YbEFXuhmecsDAayQXIE47tPYvC9BNr6Q/0JfUrVW28NMyWQvQ==
   dependencies:
     "@ts-stack/router" "^0.0.0-alpha.1"
+    reflect-metadata "^0.1.13"
 
 "@ts-stack/router@^0.0.0-alpha.1":
   version "0.0.0-alpha.2"
@@ -3483,10 +3484,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^3.8.2:
-  version "3.9.6"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.6.tgz#8f3e0198a34c3ae17091b35571d3afd31999365a"
-  integrity sha512-Pspx3oKAPJtjNwE92YS05HQoY7z2SFyOpHo9MqJor3BXAGNaPUs83CuVp9VISFkSjyRfiTpmKuAYGJB7S7hOxw==
+typescript@^3.9.7:
+  version "3.9.7"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
+  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
 union-value@^1.0.0:
   version "1.0.1"

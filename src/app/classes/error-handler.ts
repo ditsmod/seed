@@ -1,11 +1,11 @@
 import { Injectable } from '@ts-stack/di';
-import { ErrorHandler, Logger, Status, Request, Response } from '@ts-stack/ditsmod';
+import { Logger, Status, Request, Response, ControllerErrorHandler } from '@ts-stack/ditsmod';
 
 @Injectable()
-export abstract class BaseController implements ErrorHandler {
-  constructor(protected req: Request, protected res: Response, protected log: Logger) {}
+export class ErrorHandler implements ControllerErrorHandler {
+  constructor(private req: Request, private res: Response, private log: Logger) {}
 
-  errorHandler(err: Error) {
+  handleError(err: Error) {
     const req = this.req;
     const message = err.message;
     this.log.error({ err, req });

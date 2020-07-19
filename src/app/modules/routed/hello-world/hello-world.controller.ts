@@ -1,4 +1,4 @@
-import { Controller, Request, Response, Route, Logger } from '@ts-stack/ditsmod';
+import { Controller, Response, Route } from '@ts-stack/ditsmod';
 
 @Controller()
 export class HelloWorldController {

@@ -468,14 +468,14 @@
     type-detect "4.0.8"
 
 "@ts-stack/di@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.0.0.tgz#5c742ebc89ae1ffa5d60e42efe7497e0dacad58f"
-  integrity sha512-4qU/Rfn33GsjIs8X55iDhKwVnPd3Bn6UO29C73+SVzACe3OTKCBLv8mRaMpYAXiQQYYYqpEpSwDKmTcsOJ/8oA==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.1.0.tgz#80e485aa61ea9b1ffe089f3adb3c34ac6d8f5b07"
+  integrity sha512-uJ0X7A+7mIxpPxihBQpLbKMNzee37zMoBj6qeBIyW0330+at+hYSiYN7Eg/0LEq54oYv2AomvFHEOUD5LKCCsw==
 
 "@ts-stack/ditsmod@^1.0.0-beta.4":
-  version "1.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.5.tgz#e30702b59b65aca366bf74ef6386e3aab804f81b"
-  integrity sha512-exgEObKdlTiuhZ+gmT6zgiYvL9DDeIfk+fWDHhbjfrk1ZFho9y0t9M7B+ioRlQgzAr7HqXOWjJnRWt2eeZTtqw==
+  version "1.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.9.tgz#9464db579e65ad1951b564c43275c2fd1dd24730"
+  integrity sha512-vIMXysreRj08BNawSdF5nC0kHJXuKlin4YwycreiCTHZPhe8BKhSbQB+nRG/U63FYFy8OL+7WC2cNuyr0o7c4Q==
   dependencies:
     "@ts-stack/router" "^0.0.0-alpha.1"
     reflect-metadata "^0.1.13"
@@ -569,9 +569,9 @@
   integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
 
 "@types/node@^13.11.1":
-  version "13.13.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.16.tgz#66f2177047b61131eaac18c47eb25d6f1317070a"
-  integrity sha512-dJ9vXxJ8MEwzNn4GkoAGauejhXoKuJyYKegsA6Af25ZpEDXomeVXt5HUWUNVHk5UN7+U0f6ghC6otwt+7PdSDg==
+  version "13.13.21"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.21.tgz#e48d3c2e266253405cf404c8654d1bcf0d333e5c"
+  integrity sha512-tlFWakSzBITITJSxHV4hg4KvrhR/7h3xbJdSFbYJBVzKubrASbnnIFuSgolUh7qKGo/ZeJPKUfbZ0WS6Jp14DQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -2770,9 +2770,9 @@ prelude-ls@~1.1.2:
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
 prettier@^2.0.4:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.1.tgz#d9485dd5e499daa6cb547023b87a6cf51bee37d6"
-  integrity sha512-9bY+5ZWCfqj3ghYBLxApy2zf6m+NJo5GzmLTpr9FsApsfjriNnS2dahWReHMi7qNPhhHl9SYHJs2cHZLgexNIw==
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
+  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
 
 pretty-format@^25.2.1, pretty-format@^25.5.0:
   version "25.5.0"

@@ -8,7 +8,7 @@ export class ErrorHandler implements ControllerErrorHandler {
   handleError(err: Error) {
     const req = this.req;
     const message = err.message;
-    this.log.error({ err, req });
+    this.log.error({ err });
     if (!this.res.nodeRes.headersSent) {
       this.res.sendJson({ error: { message } }, Status.INTERNAL_SERVER_ERROR);
     }

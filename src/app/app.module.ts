@@ -1,8 +1,7 @@
 import * as http from 'http';
-import { RootModule, Logger, ControllerErrorHandler } from '@ts-stack/ditsmod';
+import { RootModule, ControllerErrorHandler } from '@ts-stack/ditsmod';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
-import { LoggerService } from './services-per-app/logger.service';
 import { ErrorHandler } from './services-per-app/error-handler';
 
 /**
@@ -17,7 +16,7 @@ import { ErrorHandler } from './services-per-app/error-handler';
   imports: [HelloWorldModule],
   exports: [{ provide: ControllerErrorHandler, useClass: ErrorHandler }],
   controllers: [],
-  providersPerApp: [{ provide: Logger, useClass: LoggerService }],
+  providersPerApp: [],
   providersPerMod: [],
   providersPerReq: [ControllerErrorHandler],
 })

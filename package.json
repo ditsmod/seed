@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/main.ts",
-    "build": "rimraf dist/* && tsc && nodemon dist/main.js",
+    "build": "rimraf dist/* && tsc",
     "test": "jest"
   },
   "keywords": [],
@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@ts-stack/di": "^1.0.0",
-    "@ts-stack/ditsmod": "^1.0.0-beta.12"
+    "@ts-stack/ditsmod": "^1.0.0-beta.13"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",

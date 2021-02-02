@@ -484,10 +484,10 @@
   resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.1.0.tgz#80e485aa61ea9b1ffe089f3adb3c34ac6d8f5b07"
   integrity sha512-uJ0X7A+7mIxpPxihBQpLbKMNzee37zMoBj6qeBIyW0330+at+hYSiYN7Eg/0LEq54oYv2AomvFHEOUD5LKCCsw==
 
-"@ts-stack/ditsmod@^1.0.0-beta.13":
-  version "1.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.13.tgz#c01f4d11c4e97fecf886f2ff364d353a34b1faf1"
-  integrity sha512-Fu0+6PPcDH3RBOye4vqvYoL6Mahrkzv6KNbkr9Z9FWtiNIfQimCafTInNUduw22ua6OpnF+U9gC+QBJGhOJ8lw==
+"@ts-stack/ditsmod@^1.0.0-beta.14":
+  version "1.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.14.tgz#f8c2503a5d1e231dfe3172e38733c5af82ba9e66"
+  integrity sha512-rWkOZzJowzhIheBnUtaQMdNa40t6zkyXV0oAtvsNslm6IVbsktqyvL6xCvXP3BeyxJF/IS8fMfS4ZlwQiCJyHg==
   dependencies:
     "@ts-stack/router" "^0.0.0-alpha.1"
     get-body "^1.0.3"

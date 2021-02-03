@@ -479,24 +479,29 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@ts-stack/di@^1.0.0":
+"@ts-stack/body-parser@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@ts-stack/body-parser/-/body-parser-1.0.0-beta.2.tgz#77fc2bfe24da164ee99cc407ad57aa92d67772b9"
+  integrity sha512-B79+pwoBrMB1cFBH+z3LIkotj6+mPPshGI5+/KqXMogc9KxX1+K4knV/+rkNGFJkPgE+qvcOzNUCoELzwChTlA==
+  dependencies:
+    get-body "^1.0.3"
+
+"@ts-stack/di@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.1.0.tgz#80e485aa61ea9b1ffe089f3adb3c34ac6d8f5b07"
   integrity sha512-uJ0X7A+7mIxpPxihBQpLbKMNzee37zMoBj6qeBIyW0330+at+hYSiYN7Eg/0LEq54oYv2AomvFHEOUD5LKCCsw==
 
-"@ts-stack/ditsmod@^1.0.0-beta.14":
-  version "1.0.0-beta.14"
-  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.14.tgz#f8c2503a5d1e231dfe3172e38733c5af82ba9e66"
-  integrity sha512-rWkOZzJowzhIheBnUtaQMdNa40t6zkyXV0oAtvsNslm6IVbsktqyvL6xCvXP3BeyxJF/IS8fMfS4ZlwQiCJyHg==
+"@ts-stack/ditsmod@^1.0.0-beta.16":
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.16.tgz#185a9b2e30fe7a02299d99a138816f8174eb1b65"
+  integrity sha512-nmFUUdSy5J59cmxIgkrXAUdupkzQaYyLJGGuad+eaXqz1T2hL3rhImeNT9cGceeYeV0Dd/C8KXcUvHrRqHP08g==
   dependencies:
-    "@ts-stack/router" "^0.0.0-alpha.1"
-    get-body "^1.0.3"
     reflect-metadata "^0.1.13"
 
-"@ts-stack/router@^0.0.0-alpha.1":
-  version "0.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@ts-stack/router/-/router-0.0.0-alpha.2.tgz#fbbb53b30244c30a2795af142bae30da96c632a6"
-  integrity sha512-4nBGJSI4iafiW/+7z1mhj+730Owg1wSE7GZVvSC2q/2ZWnj294gl7n+y3o6JbDzXw6QbDB2Y6UVRCAV0JKoTgQ==
+"@ts-stack/router@^1.0.0-beta.1":
+  version "1.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@ts-stack/router/-/router-1.0.0-beta.1.tgz#038a08cd8655d06f6b7b6df227ec0b86e8864d44"
+  integrity sha512-Qdoq1wY7Vpd9PN5vg5E8tpyqoyiD2E7faGzh9JPtENYpc8Z4yJOBmPX7G9o4K4fXjdlCVJf2H05RfKW98aKFkA==
 
 "@types/babel__core@^7.1.7":
   version "7.1.7"

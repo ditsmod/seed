@@ -10,5 +10,5 @@ new AppFactory()
   })
   .catch(({ err, log }) => {
     log.fatal(err);
-    throw err;
+    // throw err;
   });

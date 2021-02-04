@@ -12,10 +12,8 @@
   "author": "Костя Третяк",
   "license": "MIT",
   "dependencies": {
-    "@ts-stack/body-parser": "^1.0.0-beta.2",
     "@ts-stack/di": "^1.1.0",
-    "@ts-stack/ditsmod": "^1.0.0-beta.16",
-    "@ts-stack/router": "^1.0.0-beta.1"
+    "@ts-stack/ditsmod": "^1.0.0-beta.17"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",

@@ -491,12 +491,15 @@
   resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.1.0.tgz#80e485aa61ea9b1ffe089f3adb3c34ac6d8f5b07"
   integrity sha512-uJ0X7A+7mIxpPxihBQpLbKMNzee37zMoBj6qeBIyW0330+at+hYSiYN7Eg/0LEq54oYv2AomvFHEOUD5LKCCsw==
 
-"@ts-stack/ditsmod@^1.0.0-beta.16":
-  version "1.0.0-beta.16"
-  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.16.tgz#185a9b2e30fe7a02299d99a138816f8174eb1b65"
-  integrity sha512-nmFUUdSy5J59cmxIgkrXAUdupkzQaYyLJGGuad+eaXqz1T2hL3rhImeNT9cGceeYeV0Dd/C8KXcUvHrRqHP08g==
+"@ts-stack/ditsmod@^1.0.0-beta.17":
+  version "1.0.0-beta.17"
+  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.17.tgz#74ef4103ecb38bfa8aa313605418199f1be3fc84"
+  integrity sha512-oHzSSDOy0z5uRgcQpC6hSDbxL/KHk4B6iP/eed4bgBWLdxC2zqFPtNNLOguNQh/uh3MicMFEdAUrjST8H673Kw==
   dependencies:
     reflect-metadata "^0.1.13"
+  optionalDependencies:
+    "@ts-stack/body-parser" "^1.0.0-beta.2"
+    "@ts-stack/router" "^1.0.0-beta.1"
 
 "@ts-stack/router@^1.0.0-beta.1":
   version "1.0.0-beta.1"

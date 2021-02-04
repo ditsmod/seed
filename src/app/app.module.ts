@@ -1,7 +1,8 @@
 import * as http from 'http';
-import { BodyParser, RootModule } from '@ts-stack/ditsmod';
+import { RootModule } from '@ts-stack/ditsmod';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
+import { DefaultsModule } from './modules/services/defaults/defaults.module';
 
 /**
  * Any one of these options are optional.
@@ -12,11 +13,11 @@ import { HelloWorldModule } from './modules/routed/hello-world/hello-world.modul
   serverOptions: {},
   listenOptions: { port: 8080, host: 'localhost' },
   prefixPerApp: '',
-  imports: [HelloWorldModule],
-  exports: [],
+  imports: [DefaultsModule, HelloWorldModule],
+  exports: [DefaultsModule],
   controllers: [],
   providersPerApp: [],
   providersPerMod: [],
-  providersPerReq: [BodyParser],
+  providersPerReq: [],
 })
 export class AppModule {}

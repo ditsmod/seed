@@ -491,10 +491,10 @@
   resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.1.0.tgz#80e485aa61ea9b1ffe089f3adb3c34ac6d8f5b07"
   integrity sha512-uJ0X7A+7mIxpPxihBQpLbKMNzee37zMoBj6qeBIyW0330+at+hYSiYN7Eg/0LEq54oYv2AomvFHEOUD5LKCCsw==
 
-"@ts-stack/ditsmod@^1.0.0-beta.18":
-  version "1.0.0-beta.18"
-  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.18.tgz#342b136e596dfbb866373fb673418c9db5211400"
-  integrity sha512-/H8qBKNeGiSS91l027BaCBPbKP19VF+9eB4+N29ypIfu6LrQGmTmsJrnM8B4HkhBPgux5B8pVie6aPVIP1OkJQ==
+"@ts-stack/ditsmod@^1.0.0-beta.19":
+  version "1.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.19.tgz#fff878f8c41de00aff6a1adea57bee4065192ab1"
+  integrity sha512-1Q2wDFSLE5Zvu/WHckDJ3aKJ/GgTE0F+XrSJpuHT2aViJe858d2QChSA8QNpFl+JQe1xoaTXCjyaA6rDVyZBmA==
   dependencies:
     reflect-metadata "^0.1.13"
 
@@ -592,9 +592,9 @@
   integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
 
 "@types/node@^13.11.1":
-  version "13.13.40"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.40.tgz#f655ef327362cc83912f2e69336ddc62a24a9f88"
-  integrity sha512-eKaRo87lu1yAXrzEJl0zcJxfUMDT5/mZalFyOkT44rnQps41eS2pfWzbaulSPpQLFNy29bFqn+Y5lOTL8ATlEQ==
+  version "13.13.41"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.41.tgz#045a4981318d31a581650ce70f340a32c3461198"
+  integrity sha512-qLT9IvHiXJfdrje9VmsLzun7cQ65obsBTmtU3EOnCSLFOoSHx1hpiRHoBnpdbyFqnzqdUUIv81JcEJQCB8un9g==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"

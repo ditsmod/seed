@@ -13,7 +13,7 @@ import { DefaultsModule } from './modules/services/defaults/defaults.module';
   serverOptions: {},
   listenOptions: { port: 8080, host: 'localhost' },
   prefixPerApp: '',
-  imports: [DefaultsModule, HelloWorldModule],
+  imports: [HelloWorldModule],
   exports: [DefaultsModule],
   controllers: [],
   providersPerApp: [],

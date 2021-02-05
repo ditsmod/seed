@@ -14,7 +14,7 @@
   "dependencies": {
     "@ts-stack/body-parser": "^1.0.0-beta.2",
     "@ts-stack/di": "^1.1.0",
-    "@ts-stack/ditsmod": "^1.0.0-beta.18",
+    "@ts-stack/ditsmod": "^1.0.0-beta.19",
     "@ts-stack/router": "^1.0.0-beta.1"
   },
   "devDependencies": {

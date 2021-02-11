@@ -491,10 +491,10 @@
   resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.1.0.tgz#80e485aa61ea9b1ffe089f3adb3c34ac6d8f5b07"
   integrity sha512-uJ0X7A+7mIxpPxihBQpLbKMNzee37zMoBj6qeBIyW0330+at+hYSiYN7Eg/0LEq54oYv2AomvFHEOUD5LKCCsw==
 
-"@ts-stack/ditsmod@^1.0.0-beta.19":
-  version "1.0.0-beta.19"
-  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.19.tgz#fff878f8c41de00aff6a1adea57bee4065192ab1"
-  integrity sha512-1Q2wDFSLE5Zvu/WHckDJ3aKJ/GgTE0F+XrSJpuHT2aViJe858d2QChSA8QNpFl+JQe1xoaTXCjyaA6rDVyZBmA==
+"@ts-stack/ditsmod@^1.0.0-beta.20":
+  version "1.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.20.tgz#8b716842386b1f1b4f01acf2af38bd4551798221"
+  integrity sha512-5PCR9rzX35iGaRrT30tCSSkxtsvEgLmGG7BMcz9N9YQR42rvn9mJmbDdxtny4NuTYRz6L86ZEKR45YAAJKWMMg==
   dependencies:
     reflect-metadata "^0.1.13"
 

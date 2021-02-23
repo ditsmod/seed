@@ -520,10 +520,10 @@
   resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.1.0.tgz#80e485aa61ea9b1ffe089f3adb3c34ac6d8f5b07"
   integrity sha512-uJ0X7A+7mIxpPxihBQpLbKMNzee37zMoBj6qeBIyW0330+at+hYSiYN7Eg/0LEq54oYv2AomvFHEOUD5LKCCsw==
 
-"@ts-stack/ditsmod@^1.0.0-beta.20":
-  version "1.0.0-beta.20"
-  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.20.tgz#8b716842386b1f1b4f01acf2af38bd4551798221"
-  integrity sha512-5PCR9rzX35iGaRrT30tCSSkxtsvEgLmGG7BMcz9N9YQR42rvn9mJmbDdxtny4NuTYRz6L86ZEKR45YAAJKWMMg==
+"@ts-stack/ditsmod@^1.0.0-beta.21":
+  version "1.0.0-beta.21"
+  resolved "https://registry.yarnpkg.com/@ts-stack/ditsmod/-/ditsmod-1.0.0-beta.21.tgz#c544c17049b69a217273a3d2a8f54180f5bf822c"
+  integrity sha512-Tz6XGhdImPq5FMlx7ZpnAOrhD4vymswgXxIT9Ok1IZaSQoU/VAYL9cSIeG1LbF2T3l+THea+CDHgYjmAwcc/QQ==
   dependencies:
     reflect-metadata "^0.1.13"
 
@@ -637,10 +637,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.4.tgz#1581d6c16e3d4803eb079c87d4ac893ee7501c2c"
   integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
 
-"@types/node@^14.14.28":
-  version "14.14.28"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.28.tgz#cade4b64f8438f588951a6b35843ce536853f25b"
-  integrity sha512-lg55ArB+ZiHHbBBttLpzD07akz0QPrZgUODNakeC09i62dnrywr9mFErHuaPlB6I7z+sEbK+IYmplahvplCj2g==
+"@types/node@^14.14.31":
+  version "14.14.31"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
+  integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"

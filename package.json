@@ -14,12 +14,12 @@
   "dependencies": {
     "@ts-stack/body-parser": "^1.0.0-beta.2",
     "@ts-stack/di": "^1.1.0",
-    "@ts-stack/ditsmod": "^1.0.0-beta.20",
+    "@ts-stack/ditsmod": "^1.0.0-beta.21",
     "@ts-stack/router": "^1.0.0-beta.1"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.28",
+    "@types/node": "^14.14.31",
     "jest": "^26.6.3",
     "nodemon": "^2.0.7",
     "prettier": "^2.0.4",

@@ -2,7 +2,7 @@ import { Controller, Request, Response, Route } from '@ts-stack/ditsmod';
 
 @Controller()
 export class HelloWorldController {
-  constructor(private res: Response, private req: Request) {}
+  constructor(private req: Request, private res: Response) {}
 
   @Route('GET')
   tellHello() {

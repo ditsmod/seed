@@ -14,7 +14,7 @@
   "dependencies": {
     "@ts-stack/body-parser": "^1.0.0-beta.2",
     "@ts-stack/di": "^1.1.0",
-    "@ts-stack/ditsmod": "^1.0.0-beta.21",
+    "@ts-stack/ditsmod": "^1.0.0-beta.22",
     "@ts-stack/router": "^1.0.0-beta.1"
   },
   "devDependencies": {
@@ -24,11 +24,11 @@
     "nodemon": "^2.0.7",
     "prettier": "^2.0.4",
     "rimraf": "^3.0.1",
-    "ts-jest": "^26.5.1",
+    "ts-jest": "^26.5.2",
     "ts-node": "^9.1.1",
     "tslint": "^6.1.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.3.0",
-    "typescript": "^4.1.5"
+    "typescript": "^4.2.2"
   }
 }

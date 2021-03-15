@@ -1,6 +1,6 @@
-import { BodyParser, Module, Router } from '@ts-stack/ditsmod';
-import { DefaultRouter } from '@ts-stack/router';
-import { DefaultBodyParser } from '@ts-stack/body-parser';
+import { BodyParser, Module, Router } from '@ditsmod/core';
+import { DefaultRouter } from '@ditsmod/router';
+import { DefaultBodyParser } from '@ditsmod/body-parser';
 
 @Module({
   providersPerApp: [{ provide: Router, useClass: DefaultRouter }],

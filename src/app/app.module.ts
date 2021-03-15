@@ -1,5 +1,5 @@
 import * as http from 'http';
-import { RootModule } from '@ts-stack/ditsmod';
+import { RootModule } from '@ditsmod/core';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
 import { DefaultsModule } from './modules/services/defaults/defaults.module';

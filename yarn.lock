@@ -303,10 +303,10 @@
   dependencies:
     get-body "^1.0.3"
 
-"@ditsmod/core@^1.0.0-beta.9":
-  version "1.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-1.0.0-beta.9.tgz#30ac53d9e2ea3b7293fd284b11275fafeb601fa6"
-  integrity sha512-qvSv0rfdG1tmdWEYUvgkUPH/lN+czxLEvf6eqIl8Cj+mrnMBaSYK+AzMIS+akBdiBoNAzir9jW5grUqrKJgJbQ==
+"@ditsmod/core@^1.0.0-beta.10":
+  version "1.0.0-beta.10"
+  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-1.0.0-beta.10.tgz#192923faf7b164d8942d2fb5b32e8a76e0684c42"
+  integrity sha512-DGMpl/lWAsgbgA1TYyaXhQ4pVLPtYuvHRol7iS8K1yZ3WRJEHpzfGStN6+NKCULsZLREIn6a73qECIMfrdF81g==
   dependencies:
     reflect-metadata "^0.1.13"
 
@@ -4179,9 +4179,9 @@ typedarray-to-buffer@^3.1.5:
     is-typedarray "^1.0.0"
 
 typescript@^4.2.3:
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
-  integrity sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
+  integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
 
 undefsafe@^2.0.3:
   version "2.0.3"

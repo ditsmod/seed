@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@ditsmod/body-parser": "^1.0.0-beta.3",
-    "@ditsmod/core": "^1.0.0-beta.9",
+    "@ditsmod/core": "^1.0.0-beta.10",
     "@ditsmod/router": "^1.0.0-beta.3",
     "@ts-stack/di": "^1.1.0"
   },

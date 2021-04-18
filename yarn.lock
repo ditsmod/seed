@@ -330,10 +330,10 @@
   dependencies:
     reflect-metadata "^0.1.13"
 
-"@ditsmod/openapi@^1.0.0-alpha.5":
-  version "1.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@ditsmod/openapi/-/openapi-1.0.0-alpha.5.tgz#a5c183d7a744f4bc4a445bb856c82b51fce2ebff"
-  integrity sha512-q/2MzSDB16sRO3wm/PC+bzJYXDhZJz5Jas01XC5VpKlxcTQ4dyeoCPrzf+5Q96RuoNkxUxboQ/g7NlWpowKk/Q==
+"@ditsmod/openapi@^1.0.0-alpha.6":
+  version "1.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@ditsmod/openapi/-/openapi-1.0.0-alpha.6.tgz#54a15bfd88a2525cb96891f6c83a6b584477c5e1"
+  integrity sha512-dpmio2PjviKBL8HBqKnOTnZJeRtlzgExnOyWtl2gZqsPg7AIfpcnD1FFBQN7yTbvS2G7Z0V2+nUxIg1FJwGeKg==
   dependencies:
     "@ts-stack/openapi-spec" "^3.1.2"
     copy-webpack-plugin "^8.1.1"

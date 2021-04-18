@@ -12,19 +12,21 @@
   "author": "Костя Третяк",
   "license": "MIT",
   "dependencies": {
-    "@ditsmod/body-parser": "^1.0.0-beta.3",
-    "@ditsmod/core": "^1.0.0-beta.10",
+    "@ditsmod/body-parser": "^1.0.0-beta.4",
+    "@ditsmod/core": "^1.0.0-beta.12",
+    "@ditsmod/openapi": "^1.0.0-alpha.4",
     "@ditsmod/router": "^1.0.0-beta.3",
-    "@ts-stack/di": "^1.1.0"
+    "@ts-stack/di": "^1.1.0",
+    "@ts-stack/openapi-spec": "^3.1.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.35",
+    "@types/node": "^14.14.41",
     "jest": "^26.6.3",
     "nodemon": "^2.0.7",
     "prettier": "^2.0.4",
     "rimraf": "^3.0.1",
-    "ts-jest": "^26.5.3",
+    "ts-jest": "^26.5.5",
     "ts-node": "^9.1.1",
     "tslint": "^6.1.1",
     "tslint-config-prettier": "^1.18.0",

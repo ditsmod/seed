@@ -323,17 +323,17 @@
   dependencies:
     get-body "^1.0.3"
 
-"@ditsmod/core@^1.0.0-beta.14":
-  version "1.0.0-beta.14"
-  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-1.0.0-beta.14.tgz#559a28e6cdb5fbabb0b113b0577fb932ace397e4"
-  integrity sha512-zC1r2Bd+ENmEhSkbIc3GTWhYgFvIQiUz3dW936cHexwX57mZoRzltAuJLpOUjZFf0iTZC4pxO/lTVCAi2JM1nQ==
+"@ditsmod/core@^1.0.0-beta.16":
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-1.0.0-beta.16.tgz#f228da50c49d35a1ebe8a3805d1b50d848cdd62b"
+  integrity sha512-Fpa7n/MrCQYLoNk2l+HaKCLhbyAVRdRrFGrhI5idrm5WxlzpBdxP8v/W5QCrM5CNHgBIjHbVLASGkNid95OBhQ==
   dependencies:
     reflect-metadata "^0.1.13"
 
-"@ditsmod/openapi@^1.0.0-beta.4":
-  version "1.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@ditsmod/openapi/-/openapi-1.0.0-beta.4.tgz#275e31947d7c77e4d8aebec3ce6bc1b681400c51"
-  integrity sha512-lfu/wUwODu+x5CDzfjwbHzyJq/qKnR85Hsg1G51Jvp4AUL0Ftum2QBCeB9GhYkPP9eJkWtOmaFezA1jGOilzLw==
+"@ditsmod/openapi@^1.0.0-beta.11":
+  version "1.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@ditsmod/openapi/-/openapi-1.0.0-beta.11.tgz#e7430fdb67ee6736a68de5df3a957c2a0b84f2e9"
+  integrity sha512-rdm4XCu8p5zBiQvp2VlLgB3AghkQoH8NLgEIlf8J0lggI+S6pv275890P8dGwRj/qjvuFq/kch53bUU4CfV8pA==
   dependencies:
     "@ts-stack/openapi-spec" "^3.1.2"
     copy-webpack-plugin "^8.1.1"

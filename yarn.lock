@@ -323,10 +323,10 @@
   dependencies:
     get-body "^1.0.3"
 
-"@ditsmod/core@^1.0.0-beta.16":
-  version "1.0.0-beta.16"
-  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-1.0.0-beta.16.tgz#f228da50c49d35a1ebe8a3805d1b50d848cdd62b"
-  integrity sha512-Fpa7n/MrCQYLoNk2l+HaKCLhbyAVRdRrFGrhI5idrm5WxlzpBdxP8v/W5QCrM5CNHgBIjHbVLASGkNid95OBhQ==
+"@ditsmod/core@^1.0.0-beta.18":
+  version "1.0.0-beta.18"
+  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-1.0.0-beta.18.tgz#c8ccbc1ec192e86ab59dab740a77a8549aee921d"
+  integrity sha512-HVE2vUDBf8o/M2kPVCvPr8tnFDOf7E51PmbLcq9wH5AyK/7FjJIGziRh43iDD8SexjjqIpIH86aFVuTHtDWrMQ==
   dependencies:
     reflect-metadata "^0.1.13"
 

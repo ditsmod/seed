@@ -11,6 +11,10 @@
   "keywords": [],
   "author": "Костя Третяк",
   "license": "MIT",
+  "resolutions": {
+    "hosted-git-info": "^2.8.9",
+    "node-fetch": "^2.6.1"
+  },
   "dependencies": {
     "@ditsmod/body-parser": "^1.0.0-beta.6",
     "@ditsmod/core": "^1.0.0-beta.21",

@@ -12,12 +12,12 @@
   "author": "Костя Третяк",
   "license": "MIT",
   "dependencies": {
-    "@ditsmod/body-parser": "^1.0.0-beta.4",
-    "@ditsmod/core": "^1.0.0-beta.19",
-    "@ditsmod/openapi": "^1.0.0-beta.13",
-    "@ditsmod/router": "^1.0.0-beta.3",
+    "@ditsmod/body-parser": "^1.0.0-beta.6",
+    "@ditsmod/core": "^1.0.0-beta.21",
+    "@ditsmod/openapi": "^1.0.0-beta.15",
+    "@ditsmod/router": "^1.0.0-beta.4",
     "@ts-stack/di": "^1.1.0",
-    "@ts-stack/openapi-spec": "^3.1.2"
+    "@ts-stack/openapi-spec": "^3.1.4"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",

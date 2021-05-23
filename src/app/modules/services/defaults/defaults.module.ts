@@ -1,10 +1,10 @@
-import { BodyParser, Module, Router } from '@ditsmod/core';
+import { Module, Router } from '@ditsmod/core';
 import { DefaultRouter } from '@ditsmod/router';
-import { DefaultBodyParser } from '@ditsmod/body-parser';
+import { BodyParserModule } from '@ditsmod/body-parser';
 
 @Module({
   providersPerApp: [{ provide: Router, useClass: DefaultRouter }],
-  providersPerReq: [BodyParser],
-  exports: [{ provide: BodyParser, useClass: DefaultBodyParser }]
+  imports: [BodyParserModule],
+  exports: [BodyParserModule]
 })
 export class DefaultsModule {}

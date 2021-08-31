@@ -1,6 +1,6 @@
 ## Description
 
-This is [@ditsmod/core](https://github.com/ditsmod/core) seed project.
+This is [@ditsmod/ditsmod](https://github.com/ditsmod/ditsmod) seed project.
 
 ## Usage
 
@@ -23,4 +23,4 @@ curl -isS localhost:8080 -d '{"one":1}' -H 'content-type: application/json'
 
 ## Example
 
-You can see more example usage in [@ditsmod/core repository](https://github.com/ditsmod/core/tree/master/examples)
+You can see more example usage in [@ditsmod/ditsmod repository](https://github.com/ditsmod/ditsmod/tree/main/examples)

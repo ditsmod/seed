@@ -21,10 +21,11 @@ const openapiModuleWithParams = OpenapiModule.withParams(providersPerApp);
   listenOptions: { host: 'localhost', port: 8080 },
   prefixPerApp: '',
   imports: [HelloWorldModule, openapiModuleWithParams],
-  exports: [DefaultsModule, openapiModuleWithParams],
+  exports: [DefaultsModule],
   controllers: [],
   providersPerApp: [],
   providersPerMod: [],
   providersPerReq: [],
+  resolvedCollisionsPerApp: [[OAS_OBJECT, openapiModuleWithParams]]
 })
 export class AppModule {}

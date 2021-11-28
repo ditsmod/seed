@@ -25,7 +25,6 @@ const openapiModuleWithParams = OpenapiModule.withParams(providersPerApp);
   controllers: [],
   providersPerApp: [],
   providersPerMod: [],
-  providersPerReq: [],
-  resolvedCollisionsPerApp: [[OAS_OBJECT, openapiModuleWithParams]]
+  providersPerReq: []
 })
 export class AppModule {}

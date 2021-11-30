@@ -336,21 +336,21 @@
     "@cspotcode/source-map-consumer" "0.8.0"
 
 "@ditsmod/body-parser@^2.0.0-next.2":
-  version "2.0.0-next.2"
-  resolved "https://registry.yarnpkg.com/@ditsmod/body-parser/-/body-parser-2.0.0-next.2.tgz#46a566744caddca15cdaef7b05b39a29073599af"
-  integrity sha512-T/IT0aI5O6g8E+T6Oye6nLajkVg798hkoiELDt3VvSouZskgn2TWy0W5Tqi1Mdzm+9KWk+YvgYx5nfMyGdssCg==
+  version "2.0.0-next.3"
+  resolved "https://registry.yarnpkg.com/@ditsmod/body-parser/-/body-parser-2.0.0-next.3.tgz#6a308ff23d29d0d0c1af872ec93a2e2309f2be17"
+  integrity sha512-IeRg+MeTjPKSxpltqScDaOpkHQ1CJjv05S7MNPRBP5LlkH/HYV8cQ4EtSem+KH5hkirtMoc3McNUqiM9Qiq9xg==
   dependencies:
     get-body "^1.0.3"
 
 "@ditsmod/core@^2.0.0-next.1":
-  version "2.0.0-next.2"
-  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.0.0-next.2.tgz#2080a2278cfbbed35bff8def4246025effa8cbbb"
-  integrity sha512-JxaHeNyv8eGcSlN1PthGiBHOuoYVks7bnRBZ44j1fEQDEvWHxhuUJjwasWJ9LxOvg1b8+VoDM5JVr/pO/MpMMA==
+  version "2.0.0-next.3"
+  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.0.0-next.3.tgz#e41f601e9a95a07870c751b95a2aea960adafb46"
+  integrity sha512-wdwbv+a+1cCFVHQuhPqYpnH7eb81hfLt442NhCaijOprvzEf/gxnCtsscaWSHNB6zlSS4yg4WT6Scs+aHx+yfA==
 
 "@ditsmod/openapi@^2.0.0-next.1":
-  version "2.0.0-next.2"
-  resolved "https://registry.yarnpkg.com/@ditsmod/openapi/-/openapi-2.0.0-next.2.tgz#82ef214d1e59d9dc5385cb833e3a392db574deef"
-  integrity sha512-H1FQYqIC6bfygZItAugeaMiforgZFvE9/BSSvQkDur4OV+XfwiY/HW+pHR1Tkvo98ahA5pwUuanbI/d0QQc17Q==
+  version "2.0.0-next.3"
+  resolved "https://registry.yarnpkg.com/@ditsmod/openapi/-/openapi-2.0.0-next.3.tgz#56b82f13cc14d7f8e3be774df4be9bb41071dc28"
+  integrity sha512-MA5h1ruMLKuloRGp0i5xIfh9YD1yGxvIQusWBBn6dNT9OmWiI97IjaKk5Kv37NMxeWjoygMPy4COBmA0OgLjDA==
   dependencies:
     "@ts-stack/openapi-spec" "^3.1.2"
     copy-webpack-plugin "^8.1.1"
@@ -760,9 +760,9 @@
   integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
 "@types/node@*":
-  version "16.11.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.10.tgz#2e3ad0a680d96367103d3e670d41c2fed3da61ae"
-  integrity sha512-3aRnHa1KlOEEhJ6+CvyHKK5vE9BcLGjtUpwvqYLRvYNQKMfabu3BwfJaA/SLW8dxe28LsNDjtHwePTuzn3gmOA==
+  version "16.11.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.11.tgz#6ea7342dfb379ea1210835bada87b3c512120234"
+  integrity sha512-KB0sixD67CeecHC33MYn+eYARkqTheIRNuu97y2XMjR7Wu3XibO1vaY6VBV6O/a89SPI81cEUIYT87UqUWlZNw==
 
 "@types/node@^15.6.0":
   version "15.14.9"
@@ -1622,9 +1622,9 @@ copy-webpack-plugin@^8.1.1:
     serialize-javascript "^5.0.1"
 
 core-js-pure@^3.19.0:
-  version "3.19.1"
-  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.19.1.tgz#edffc1fc7634000a55ba05e95b3f0fe9587a5aa4"
-  integrity sha512-Q0Knr8Es84vtv62ei6/6jXH/7izKmOrtrxH9WJTHLCMAVeU+8TF8z8Nr08CsH4Ot0oJKzBzJJL9SJBYIv7WlfQ==
+  version "3.19.2"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.19.2.tgz#26b5bfb503178cff6e3e115bc2ba6c6419383680"
+  integrity sha512-5LkcgQEy8pFeVnd/zomkUBSwnmIxuF1C8E9KrMAbOc8f34IBT9RGvTYeNDdp1PnvMJrrVhvk1hg/yVV5h/znlg==
 
 core-js@^1.0.0:
   version "1.2.7"
@@ -1903,9 +1903,9 @@ domexception@^2.0.1:
     webidl-conversions "^5.0.0"
 
 domhandler@^4.0.0, domhandler@^4.2.0:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.2.2.tgz#e825d721d19a86b8c201a35264e226c678ee755f"
-  integrity sha512-PzE9aBMsdZO8TK4BnuJwH0QT41wgMbRzuZrHUcpYncEjmQazq8QEaBWgLG7ZyC/DAZKEgglpIA6j4Qn/HmxS3w==
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.3.0.tgz#16c658c626cf966967e306f966b431f77d4a5626"
+  integrity sha512-fC0aXNQXqKSFTr2wDNZDhsEYjCiYsDWl3D01kwt25hm1YIPyDGHvvi3rw+PLqHAl/m71MaiF7d5zvBr0p5UB2g==
   dependencies:
     domelementtype "^2.2.0"
 
@@ -1944,9 +1944,9 @@ duplexer3@^0.1.4:
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
 electron-to-chromium@^1.3.896:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.4.tgz#57311918524c1a26878c330537f967804d43788a"
-  integrity sha512-teHtgwcmVcL46jlFvAaqjyiTLWuMrUQO1JqV303JKB4ysXG6m8fXSFhbjal9st0r9mNskI22AraJZorb1VcLVg==
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.5.tgz#912e8fd1645edee2f0f212558f40916eb538b1f9"
+  integrity sha512-YKaB+t8ul5crdh6OeqT2qXdxJGI0fAYb6/X8pDIyye+c3a7ndOCk5gVeKX+ABwivCGNS56vOAif3TN0qJMpEHw==
 
 emitter-component@^1.1.1:
   version "1.1.1"
@@ -3452,9 +3452,9 @@ jest-worker@^26.6.2:
     supports-color "^7.0.0"
 
 jest-worker@^27.0.6:
-  version "27.3.1"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-27.3.1.tgz#0def7feae5b8042be38479799aeb7b5facac24b2"
-  integrity sha512-ks3WCzsiZaOPJl/oMsDjaf0TRiSv7ctNgs0FqRr2nARsovz6AWWy4oLElwcquGSz692DzgZQrCLScPNs5YlC4g==
+  version "27.4.2"
+  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-27.4.2.tgz#0fb123d50955af1a450267787f340a1bf7e12bc4"
+  integrity sha512-0QMy/zPovLfUPyHuOuuU4E+kGACXXE84nRnq6lBVI9GJg5DCBiA97SATi+ZP8CpiJwEQy1oCPjRBf8AnLjN+Ag==
   dependencies:
     "@types/node" "*"
     merge-stream "^2.0.0"
@@ -4308,9 +4308,9 @@ postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
     util-deprecate "^1.0.2"
 
 postcss-value-parser@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
-  integrity sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
+  integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 postcss@^8.2.15:
   version "8.4.4"

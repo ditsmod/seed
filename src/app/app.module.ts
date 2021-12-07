@@ -1,14 +1,9 @@
 import * as http from 'http';
 import { RootModule } from '@ditsmod/core';
-import { ServiceProvider } from '@ditsmod/core';
-import { OAS_OBJECT, OpenapiModule } from '@ditsmod/openapi';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
 import { DefaultsModule } from './modules/services/defaults/defaults.module';
-import { oasObject } from './oas-object';
-
-const providersPerApp: ServiceProvider[] = [{ provide: OAS_OBJECT, useValue: oasObject }];
-const openapiModuleWithParams = OpenapiModule.withParams(providersPerApp);
+import { openapiModuleWithParams } from './modules/services/openapi/openapi.module';
 
 /**
  * Any one of these options are optional.
@@ -24,7 +19,14 @@ const openapiModuleWithParams = OpenapiModule.withParams(providersPerApp);
   controllers: [],
   providersPerApp: [],
   providersPerMod: [],
+  providersPerRou: [],
   providersPerReq: [],
+  resolvedCollisionsPerApp: [],
+  resolvedCollisionsPerMod: [],
+  resolvedCollisionsPerRou: [],
+  resolvedCollisionsPerReq: [],
   exports: [DefaultsModule, openapiModuleWithParams],
+  extensions: [],
+  extensionsMeta: {},
 })
 export class AppModule {}

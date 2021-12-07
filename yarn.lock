@@ -335,19 +335,19 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@ditsmod/body-parser@^2.0.0-next.2":
+"@ditsmod/body-parser@^2.0.0-next.4":
   version "2.0.0-next.4"
   resolved "https://registry.yarnpkg.com/@ditsmod/body-parser/-/body-parser-2.0.0-next.4.tgz#a7ad5ffbd3bae8dce753e9ed69be50e72f53b4f3"
   integrity sha512-Dyrit3VIU3OkjIIMbHBCtxSERvbm0rwKiAldDaGAc1pQfvSCm59tCaUGQlyZPGn/a7o/DIaSIt7Pz21CTm8UyQ==
   dependencies:
     get-body "^1.0.3"
 
-"@ditsmod/core@^2.0.0-next.1":
+"@ditsmod/core@^2.0.0-next.4":
   version "2.0.0-next.4"
   resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.0.0-next.4.tgz#70711db247e0b87b370dbe5be0b2476f58cb0dc4"
   integrity sha512-0sI2tsKGHfcHtx6ChxCsEj8+4FjcCKjAFPJRwh3Ia0Mj9VkYWv5wFCLSb1LS5ucBUBTeqULjFzmUBq0wPAs6uw==
 
-"@ditsmod/openapi@^2.0.0-next.1":
+"@ditsmod/openapi@^2.0.0-next.4":
   version "2.0.0-next.4"
   resolved "https://registry.yarnpkg.com/@ditsmod/openapi/-/openapi-2.0.0-next.4.tgz#cb9ad6bf50f5ea3237f9d0ec826eb51ada02fc07"
   integrity sha512-9NSM5RC7i0+CJYaG/az9grwXSU6Lk6WD4zYyv0zgsiywwRlvKeEPVNXP+vuMQZ+5eyfvcL0duuUHiXppDifmRA==
@@ -365,7 +365,7 @@
 
 "@ditsmod/router@^2.0.0-next.0":
   version "2.0.0-next.0"
-  resolved "https://registry.npmjs.org/@ditsmod/router/-/router-2.0.0-next.0.tgz"
+  resolved "https://registry.yarnpkg.com/@ditsmod/router/-/router-2.0.0-next.0.tgz#78112f59f5f36f82192aa9c91a02a02f3c7df4db"
   integrity sha512-eGZIeSCRRhjPbI4bhx2DT9H49/aa61APwvXncbQWwEwWWbiA55slFVT8Q5QcO3WF1cXHjaknQCtclzAsXYqWAg==
 
 "@istanbuljs/load-nyc-config@^1.0.0":

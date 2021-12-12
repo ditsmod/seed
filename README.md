@@ -24,4 +24,4 @@ curl -isS localhost:8080 -d '{"one":1}' -H 'content-type: application/json'
 
 ## Example
 
-You can see more example usage in [@ditsmod/ditsmod repository](https://github.com/ditsmod/ditsmod/tree/main/examples)
+You can see more example usage in [ditsmod repository](https://github.com/ditsmod/ditsmod/tree/main/examples)

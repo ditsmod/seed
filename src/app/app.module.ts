@@ -1,5 +1,6 @@
 import * as http from 'http';
 import { RootModule } from '@ditsmod/core';
+import { JwtModule } from '@ditsmod/jwt';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
 import { DefaultsModule } from './modules/services/defaults/defaults.module';
@@ -25,7 +26,7 @@ import { openapiModuleWithParams } from './modules/services/openapi/openapi.modu
   resolvedCollisionsPerMod: [],
   resolvedCollisionsPerRou: [],
   resolvedCollisionsPerReq: [],
-  exports: [DefaultsModule, openapiModuleWithParams],
+  exports: [DefaultsModule, openapiModuleWithParams, JwtModule.withParams({ secret: 'chortisho' })],
   extensions: [],
   extensionsMeta: {},
 })

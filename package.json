@@ -18,6 +18,7 @@
   "dependencies": {
     "@ditsmod/body-parser": "^2.0.0-next.4",
     "@ditsmod/core": "^2.0.0-next.4",
+    "@ditsmod/jwt": "^2.0.0-next.2",
     "@ditsmod/openapi": "^2.0.0-next.4",
     "@ditsmod/router": "^2.0.0-next.0",
     "@ts-stack/di": "^1.2.0",

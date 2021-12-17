@@ -14,7 +14,7 @@ import { openapiModuleWithParams } from './modules/services/openapi/openapi.modu
   serverName: 'Node.js',
   serverOptions: {},
   // Here works the application and serve OpenAPI documentation.
-  listenOptions: { host: 'localhost', port: 8080 },
+  listenOptions: { host: 'localhost', port: 3000 },
   prefixPerApp: '',
   imports: [HelloWorldModule, openapiModuleWithParams],
   controllers: [],

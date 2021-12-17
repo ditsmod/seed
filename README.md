@@ -16,10 +16,10 @@ npm start
 From second terminal, check work:
 
 ```bash
-curl -isS localhost:8080
-curl -isS localhost:8080/access-token
-curl -isS localhost:8080/throw-error
-curl -isS localhost:8080 -d '{"one":1}' -H 'content-type: application/json'
+curl -isS localhost:3000
+curl -isS localhost:3000/access-token
+curl -isS localhost:3000/throw-error
+curl -isS localhost:3000 -d '{"one":1}' -H 'content-type: application/json'
 ```
 
 ## Example

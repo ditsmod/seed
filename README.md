@@ -10,7 +10,19 @@ From first terminal:
 git clone git@github.com:ditsmod/seed.git ditsmod-seed
 cd ditsmod-seed
 npm i
+```
+
+Start in development mode:
+
+```bash
 npm start
+```
+
+Start in production mode:
+
+```bash
+npm run build
+npm run start-prod
 ```
 
 From second terminal, check work:

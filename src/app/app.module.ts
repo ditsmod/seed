@@ -10,6 +10,8 @@ const loggerConfig = new LoggerConfig();
 const level: keyof Logger = 'info';
 loggerConfig.level = level;
 
+const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
+
 /**
  * Any one of these options are optional.
  */
@@ -20,7 +22,7 @@ loggerConfig.level = level;
   // Here works the application and serve OpenAPI documentation.
   listenOptions: { host: 'localhost', port: 3000 },
   prefixPerApp: '',
-  imports: [HelloWorldModule, openapiModuleWithParams],
+  imports: [DefaultsModule, HelloWorldModule, openapiModuleWithParams, jwtModuleWithParams],
   controllers: [],
   providersPerApp: [{ provide: LoggerConfig, useValue: loggerConfig }],
   providersPerMod: [],
@@ -30,7 +32,7 @@ loggerConfig.level = level;
   resolvedCollisionsPerMod: [],
   resolvedCollisionsPerRou: [],
   resolvedCollisionsPerReq: [],
-  exports: [DefaultsModule, openapiModuleWithParams, JwtModule.withParams({ secret: 'chortisho' })],
+  exports: [DefaultsModule, openapiModuleWithParams, jwtModuleWithParams],
   extensions: [],
   extensionsMeta: {},
 })

@@ -7,7 +7,7 @@ This is [@ditsmod/ditsmod](https://github.com/ditsmod/ditsmod) seed project.
 From first terminal:
 
 ```bash
-git clone git@github.com:ditsmod/seed.git ditsmod-seed
+git clone https://github.com/ditsmod/seed.git ditsmod-seed
 cd ditsmod-seed
 npm i
 ```

@@ -21,8 +21,13 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
   serverOptions: {},
   // Here works the application and serve OpenAPI documentation.
   listenOptions: { host: 'localhost', port: 3000 },
-  prefixPerApp: '',
-  imports: [DefaultsModule, HelloWorldModule, openapiModuleWithParams, jwtModuleWithParams],
+  path: '',
+  imports: [
+    DefaultsModule,
+    jwtModuleWithParams,
+    openapiModuleWithParams,
+    { path: '', module: HelloWorldModule },
+  ],
   controllers: [],
   providersPerApp: [{ provide: LoggerConfig, useValue: loggerConfig }],
   providersPerMod: [],

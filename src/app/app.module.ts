@@ -7,10 +7,7 @@ import { DefaultsModule } from './modules/services/defaults/defaults.module';
 import { openapiModuleWithParams } from './modules/services/openapi/openapi.module';
 import { getPort } from './utils/get-port';
 
-const loggerConfig = new LoggerConfig();
-const level: keyof Logger = 'info';
-loggerConfig.level = level;
-
+const loggerConfig = new LoggerConfig('info');
 const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
 
 /**

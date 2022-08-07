@@ -7,13 +7,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "npm start",
-      "name": "Run npm start",
+      "name": "Run yarn start",
+      "command": "yarn start",
       "request": "launch",
       "type": "node-terminal"
     },
     {
-      "type": "pwa-node",
+      "type": "node",
       "request": "launch",
       "name": "Jest All",
       "program": "${workspaceFolder}/node_modules/.bin/jest",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "type": "pwa-node",
+      "type": "node",
       "request": "launch",
       "name": "Jest Current File",
       "program": "${workspaceFolder}/node_modules/.bin/jest",

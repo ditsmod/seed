@@ -1,5 +1,5 @@
 import * as http from 'http';
-import { Logger, LoggerConfig, RootModule } from '@ditsmod/core';
+import { Providers, RootModule } from '@ditsmod/core';
 import { JwtModule } from '@ditsmod/jwt';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
@@ -7,7 +7,6 @@ import { DefaultsModule } from './modules/services/defaults/defaults.module';
 import { openapiModuleWithParams } from './modules/services/openapi/openapi.module';
 import { getPort } from './utils/get-port';
 
-const loggerConfig = new LoggerConfig('info');
 const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
 
 /**
@@ -27,7 +26,7 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
     { path: '', module: HelloWorldModule },
   ],
   controllers: [],
-  providersPerApp: [{ provide: LoggerConfig, useValue: loggerConfig }],
+  providersPerApp: [...new Providers().useLogConfig({ level: 'trace' }, {tags: ['route']})],
   providersPerMod: [],
   providersPerRou: [],
   providersPerReq: [],

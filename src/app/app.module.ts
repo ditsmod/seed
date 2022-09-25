@@ -26,7 +26,7 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
     { path: '', module: HelloWorldModule },
   ],
   controllers: [],
-  providersPerApp: [...new Providers().useLogConfig({ level: 'trace' }, {tags: ['route']})],
+  providersPerApp: [...new Providers().useLogConfig({ level: 'debug' }, { tags: ['route'] })],
   providersPerMod: [],
   providersPerRou: [],
   providersPerReq: [],

@@ -350,32 +350,32 @@
 
 "@ditsmod/body-parser@^2.4.0":
   version "2.4.0"
-  resolved "https://registry.npmjs.org/@ditsmod/body-parser/-/body-parser-2.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/@ditsmod/body-parser/-/body-parser-2.4.0.tgz#8ddf5b30094be997187108d390d3b0ea7afa67e2"
   integrity sha512-2KttJRkhn4MaUfuRkh7UalE/Mii7r4Uj5ihpipEzm0o6KTMT2H1tMgY9nwtT0SOBlwG4jsujev1fBVjlt8twYg==
   dependencies:
     get-body "^1.0.3"
 
-"@ditsmod/core@^2.22.0":
-  version "2.22.0"
-  resolved "https://registry.npmjs.org/@ditsmod/core/-/core-2.22.0.tgz"
-  integrity sha512-ALkZ5+X+xVEhJkW5P6idwsy1gR8hvzyEgFg4yYJWAIEy6X59UMETC1lRsKvebgzNbDBIj69bOus2TDQdX9vAsg==
+"@ditsmod/core@^2.24.0":
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.24.0.tgz#4bcd83b5f4f3f02082baee8da038ff2b1664421e"
+  integrity sha512-odzCh4qZlgV62F6utt5yhN+wKPxenIObzPhJUvYukKsNFPOeq0OfVcgW8F78sLmbS929i1qRCZMq3N8+x7/SYw==
 
 "@ditsmod/i18n@^2.0.1":
   version "2.0.1"
-  resolved "https://registry.npmjs.org/@ditsmod/i18n/-/i18n-2.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/@ditsmod/i18n/-/i18n-2.0.1.tgz#74db404d7ffae6bff3d602ecbb47279b4c709476"
   integrity sha512-OOx33YfgiWls8sj17nMOs+YQC/4kiaQ9rhCLtWmPe2R1Yer+4/SeZqqomMx4103NLCINIWxLMQN90ILXRZScPw==
 
 "@ditsmod/jwt@^2.0.0":
   version "2.0.0"
-  resolved "https://registry.npmjs.org/@ditsmod/jwt/-/jwt-2.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/@ditsmod/jwt/-/jwt-2.0.0.tgz#340c907597bc877f56931892fc792a25b59cb436"
   integrity sha512-AHVYfeDi3HkSwQFoJ1t43nGc3Wdpbyi4j6UQZHAIeAPmsosIAhTqXluTrPAPzgw5CM98GbWyYmSw1yd6PdKBPQ==
   dependencies:
     jsonwebtoken "^8.5.1"
 
-"@ditsmod/openapi-validation@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.npmjs.org/@ditsmod/openapi-validation/-/openapi-validation-2.1.1.tgz"
-  integrity sha512-hxAaLXJnz+KvqLOXGcTMv67A7OY44un57cjWU7r6QTrG5W9keFlbPnCLXBfyCVExxEwccub304Gatvv+cGSiqg==
+"@ditsmod/openapi-validation@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/openapi-validation/-/openapi-validation-2.2.0.tgz#15160fe2f48f4d01643a97c6cd455a4eb90bf362"
+  integrity sha512-Kmac4I/S4hTX8g0dvOdj3Ccaznn7JKe7cY7SJaP80COPBCbUfpsydBLk8z0tJ1eRAC8MGGxHdOeKvaM6ddv0CQ==
   dependencies:
     "@ts-stack/cookies" "^1.0.2"
     ajv "^8.11.0"
@@ -400,7 +400,7 @@
 
 "@ditsmod/router@^2.2.0":
   version "2.2.0"
-  resolved "https://registry.npmjs.org/@ditsmod/router/-/router-2.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/@ditsmod/router/-/router-2.2.0.tgz#551e2b1e67bab81394a1456e264161139b192215"
   integrity sha512-koNGvdzxzjvnubpKTX2ZjQ+DzX03DaIvdrIWDsSNgKZgFqBbVQfpeXCZeVccgCEEeBJl5cDmyBP2ldzFFQgUHw==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
@@ -718,7 +718,7 @@
 
 "@ts-stack/chain-error@^1.2.0":
   version "1.2.0"
-  resolved "https://registry.npmjs.org/@ts-stack/chain-error/-/chain-error-1.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/@ts-stack/chain-error/-/chain-error-1.2.0.tgz#2b007bdbb00e63425abcc76ef66e9bf59be66254"
   integrity sha512-ZLxCqhw5KhypXlGpisz7XiRUkb4/4ZhHMdNTpR0FulIO9RPMQ2hgZRu9bHKF6WWGiHcO2vpYbhTmq+S4dAW5bw==
   dependencies:
     assert-plus "^1.0.0"
@@ -732,12 +732,12 @@
 
 "@ts-stack/di@^1.2.0":
   version "1.2.0"
-  resolved "https://registry.npmjs.org/@ts-stack/di/-/di-1.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/@ts-stack/di/-/di-1.2.0.tgz#a389d7f9655e5d8b61b3d5e89e995e20e4b16f4c"
   integrity sha512-uen2lcTRBK7phAMEdPKJVCw6Yr9jM31d29cwWgNHEOUCcnFwHdHq6OEkcbQ70VwPR6WgrWAY/K1GyYVQAgal/A==
 
 "@ts-stack/openapi-spec@^3.1.5":
   version "3.1.5"
-  resolved "https://registry.npmjs.org/@ts-stack/openapi-spec/-/openapi-spec-3.1.5.tgz"
+  resolved "https://registry.yarnpkg.com/@ts-stack/openapi-spec/-/openapi-spec-3.1.5.tgz#cabe3b83157fe60b2aa7cb4ce86e224e3d57764c"
   integrity sha512-IIalX7oLFYUU8HXY3bFTV6l/8OPyKRbtrt64Z0SM6H7ZfTxfy0e3fWeSYsWiKCIobXeFKL5QETG61PANB9tEHw==
 
 "@tsconfig/node10@^1.0.7":
@@ -3616,7 +3616,7 @@ redux@^4.0.0, redux@^4.1.2:
 
 reflect-metadata@^0.1.13:
   version "0.1.13"
-  resolved "https://registry.npmjs.org/reflect-metadata/-/reflect-metadata-0.1.13.tgz"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 refractor@^3.6.0:

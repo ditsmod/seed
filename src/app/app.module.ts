@@ -14,7 +14,6 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
  */
 @RootModule({
   httpModule: http,
-  serverName: 'Node.js',
   serverOptions: {},
   // Here works the application and serve OpenAPI documentation.
   listenOptions: { host: 'localhost', port: getPort(3000) },

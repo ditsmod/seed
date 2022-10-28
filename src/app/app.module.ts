@@ -1,9 +1,10 @@
 import * as http from 'http';
 import { Providers, RootModule } from '@ditsmod/core';
+import { RouterModule } from '@ditsmod/router';
 import { JwtModule } from '@ditsmod/jwt';
+import { BodyParserModule } from '@ditsmod/body-parser';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
-import { DefaultsModule } from './modules/services/defaults/defaults.module';
 import { openapiModuleWithParams } from './modules/services/openapi/openapi.module';
 import { getPort } from './utils/get-port';
 
@@ -19,7 +20,8 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
   listenOptions: { host: 'localhost', port: getPort(3000) },
   path: '',
   imports: [
-    DefaultsModule,
+    RouterModule,
+    BodyParserModule,
     jwtModuleWithParams,
     openapiModuleWithParams,
     { path: '', module: HelloWorldModule },
@@ -33,7 +35,7 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
   resolvedCollisionsPerMod: [],
   resolvedCollisionsPerRou: [],
   resolvedCollisionsPerReq: [],
-  exports: [DefaultsModule, openapiModuleWithParams, jwtModuleWithParams],
+  exports: [BodyParserModule, openapiModuleWithParams, jwtModuleWithParams],
   extensions: [],
   extensionsMeta: {},
 })

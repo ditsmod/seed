@@ -23,9 +23,9 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
     RouterModule,
     BodyParserModule,
     jwtModuleWithParams,
-    openapiModuleWithParams,
-    { path: '', module: HelloWorldModule },
+    openapiModuleWithParams
   ],
+  appends: [HelloWorldModule],
   controllers: [],
   providersPerApp: [...new Providers().useLogConfig({ level: 'debug' }, { tags: ['route'] })],
   providersPerMod: [],

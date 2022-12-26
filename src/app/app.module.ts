@@ -1,5 +1,5 @@
 import * as http from 'http';
-import { Providers, RootModule } from '@ditsmod/core';
+import { Providers, rootModule } from '@ditsmod/core';
 import { RouterModule } from '@ditsmod/router';
 import { JwtModule } from '@ditsmod/jwt';
 import { BodyParserModule } from '@ditsmod/body-parser';
@@ -13,7 +13,7 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
 /**
  * Any one of these options are optional.
  */
-@RootModule({
+@rootModule({
   httpModule: http,
   serverOptions: {},
   // Here works the application and serve OpenAPI documentation.

@@ -1,26 +1,26 @@
-import { Controller, Req, Res, Route } from '@ditsmod/core';
+import { controller, Req, Res, route } from '@ditsmod/core';
 import { JwtService } from '@ditsmod/jwt';
 
-@Controller()
+@controller()
 export class HelloWorldController {
   constructor(private req: Req, private res: Res, private jwtService: JwtService) {}
 
-  @Route('GET')
+  @route('GET')
   tellHello() {
     this.res.send('Hello World!\n');
   }
 
-  @Route('POST')
+  @route('POST')
   postHello() {
     this.res.sendJson(this.req.body);
   }
 
-  @Route('GET', 'throw-error')
+  @route('GET', 'throw-error')
   thrwoError() {
     throw new Error('Here some error occurred');
   }
 
-  @Route('GET', 'access-token')
+  @route('GET', 'access-token')
   async getAuthToken() {
     this.res.sendJson(await this.jwtService.signWithSecret({ one: 1 }));
   }

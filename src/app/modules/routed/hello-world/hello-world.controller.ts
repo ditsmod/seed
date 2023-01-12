@@ -1,18 +1,18 @@
-import { controller, RequestContext, route } from '@ditsmod/core';
+import { controller, Req, Res, route } from '@ditsmod/core';
 import { JwtService } from '@ditsmod/jwt';
 
 @controller()
 export class HelloWorldController {
-  constructor(private ctx: RequestContext, private jwtService: JwtService) {}
+  constructor(private req: Req, private res: Res, private jwtService: JwtService) {}
 
   @route('GET')
   tellHello() {
-    this.ctx.res.send('Hello World!\n');
+    this.res.send('Hello World!\n');
   }
 
   @route('POST')
   postHello() {
-    this.ctx.res.sendJson(this.ctx.req.body);
+    this.res.sendJson(this.req.body);
   }
 
   @route('GET', 'throw-error')
@@ -22,6 +22,6 @@ export class HelloWorldController {
 
   @route('GET', 'access-token')
   async getAuthToken() {
-    this.ctx.res.sendJson(await this.jwtService.signWithSecret({ one: 1 }));
+    this.res.sendJson(await this.jwtService.signWithSecret({ one: 1 }));
   }
 }

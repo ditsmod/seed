@@ -324,30 +324,30 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@ditsmod/body-parser@^2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@ditsmod/body-parser/-/body-parser-2.9.0.tgz#144c8527ecf4c50e5b3d28ca183008a96552857a"
-  integrity sha512-tII+8j3Spvpr7quaASsPeGRM+qDFyW4+rtTdjzUY1woStbwt3Cl2vvEPcEvrsVHz5XNRDKUFGvI0q91kqqqnng==
+"@ditsmod/body-parser@^2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/body-parser/-/body-parser-2.10.0.tgz#7cf5580f8716a9b6cfd58cadcfb0161f694c9237"
+  integrity sha512-WFoOQbEqSA6FWXGcFnerMWmt2V2JDOdT7pR5pgOr5CMBI8GBzvprxClSTEwEbL/3y6ojdoIu349XjcAPuJFf1g==
   dependencies:
     get-body "^1.0.3"
 
-"@ditsmod/core@^2.34.0":
-  version "2.34.0"
-  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.34.0.tgz#85ecc0f5efe412a47396729fea1cbf541bbae45f"
-  integrity sha512-nfB/uLfqzdhH3UIgwHc1Y/HQUQi2up4M0W/a3F/lzu/n8g4EOI9oY/N69ni8BxBuYRT5oPz3uV22l9hheL6QEA==
+"@ditsmod/core@^2.35.0":
+  version "2.35.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.35.0.tgz#00a4d728929e4f091a8217c7c541d641bdbe9b78"
+  integrity sha512-CC5P6kQs41xMJFl25s7kIXY+akrmZm8EWqza1gA68koAGCm8R+SVRBonI3S4ykqS7lniiUry7x7wnn+Inf/6NQ==
 
-"@ditsmod/cors@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@ditsmod/cors/-/cors-2.2.0.tgz#1edfd473babc47f60fa016e79f669797b0e3938f"
-  integrity sha512-0UUAiVDHhLKuQWB8NoMnFzZlzRnxrTE54CtIKkfbP+6iE99KRBGI6IWUdVD6fI+ffEHQl2mPFlUBf9mh9iFMeA==
+"@ditsmod/cors@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/cors/-/cors-2.3.0.tgz#d7fc34e61673c3043453e7ae8d0b8c0e946b6bd8"
+  integrity sha512-bmcweMRI/uGpsZ1Sab3um6lP7F/QfwkZmqVKgNm+hL39N4YXEpib8QiPM/SjtsXnkxAO8jmaxlfqb5xkuPktnA==
   dependencies:
     "@ts-stack/cookies" "^1.0.2"
     "@ts-stack/cors" "^1.3.0"
 
-"@ditsmod/i18n@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@ditsmod/i18n/-/i18n-2.5.0.tgz#ec3798597467dca79a57af05b979f482fc8ea73d"
-  integrity sha512-L6VpkZEvQDLlOqgxvprjDvXqU4nY0cs92F+S3VV70R44d785Wu066jI+ym6feDEHmaw2hSJGI2bB9OqS+GCJ7A==
+"@ditsmod/i18n@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/i18n/-/i18n-2.6.0.tgz#9d28c9485b3278cb1c168250ad850d1745b94c47"
+  integrity sha512-8pNWjxmZv61b/NVcEYoF0bjP3ZU5GLNezOGWOEt08yUyUxDXd9iuiAycy549gufIWXRf0xXckiiju0T+fPPh0A==
 
 "@ditsmod/jwt@^2.2.0":
   version "2.2.0"
@@ -356,18 +356,18 @@
   dependencies:
     jsonwebtoken "^9.0.0"
 
-"@ditsmod/openapi-validation@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@ditsmod/openapi-validation/-/openapi-validation-2.6.0.tgz#9a0949a40e5862c274b1137b74a66cb5a53601d7"
-  integrity sha512-O200kMajHz/nEqC/iOn7xr/5Gmz+j7n9feFbkSq1Illl3F36CAAKW7Rejg7M6qtUSR54MUURHvkvte/Fh0Gq7w==
+"@ditsmod/openapi-validation@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/openapi-validation/-/openapi-validation-2.7.0.tgz#d226e8e5f440859201ab858e9f212fbb97818897"
+  integrity sha512-I2zRdMp9mFwmixNgTCSC9EnbEhVVV3FaQGeggNJBONzk4ZLAoB1DulBmjQVPIW8lGtSUvgdCZ+bhAtkghoTocw==
   dependencies:
     "@ts-stack/cookies" "^1.0.2"
     ajv "^8.11.0"
 
-"@ditsmod/openapi@^2.15.0":
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/@ditsmod/openapi/-/openapi-2.15.0.tgz#f94f87c9588d169176a647c0850c59bd9723887d"
-  integrity sha512-6jhf+4PkpjuRRuj9acWrXsaRP9Q9Cq49fE6l/KMol1ih3/mTo1vC/oZR1MgHiO3eBENTea6XL4a3RoZVPC5Zuw==
+"@ditsmod/openapi@^2.16.0":
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/openapi/-/openapi-2.16.0.tgz#2a38b5f26751696e4b121ecc3d23837367f210d7"
+  integrity sha512-KmgSpkxp4q7rFvePClKd+4iONDenaX1kz6YzY4M0e1cZALD4XlJ+oLnnFgUePpLO4Ek9RZvLt3mlniqqUBJRnQ==
   dependencies:
     "@ts-stack/openapi-spec" "^3.1.5"
     buffer "^6.0.3"
@@ -2867,6 +2867,11 @@ json5@^2.2.1:
   resolved "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz"
   integrity sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==
 
+json5@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
+
 jsonfile@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz"
@@ -3393,10 +3398,10 @@ postcss@^8.4.19:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-prettier@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-2.8.1.tgz"
-  integrity sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==
+prettier@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.2.tgz#c4ea1b5b454d7c4b59966db2e06ed7eec5dfd160"
+  integrity sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==
 
 pretty-error@^4.0.0:
   version "4.0.0"
@@ -4188,15 +4193,15 @@ traverse@~0.6.6:
   resolved "https://registry.npmjs.org/traverse/-/traverse-0.6.7.tgz"
   integrity sha512-/y956gpUo9ZNCb99YjxG7OaslxZWHfCHAUUfshwqOXmxUIvqLjVO581BT+gM59+QV9tFe6/CGG53tsA1Y7RSdg==
 
-ts-jest@^29.0.3:
-  version "29.0.3"
-  resolved "https://registry.npmjs.org/ts-jest/-/ts-jest-29.0.3.tgz"
-  integrity sha512-Ibygvmuyq1qp/z3yTh9QTwVVAbFdDy/+4BtIQR2sp6baF2SJU/8CKK/hhnGIDY2L90Az2jIqTwZPnN2p+BweiQ==
+ts-jest@^29.0.4:
+  version "29.0.4"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-29.0.4.tgz#9bc1fd0ec4d863f001af6c5c630e3a807df90f6d"
+  integrity sha512-YdNofkoyzeinwjIqLSYQeAM+GTmFQ7xFNtWcR5OyitY5VLzzNINrNmfhP5H3daA/V+RGQR7O3g1K6ysRgu5xIQ==
   dependencies:
     bs-logger "0.x"
     fast-json-stable-stringify "2.x"
     jest-util "^29.0.0"
-    json5 "^2.2.1"
+    json5 "^2.2.3"
     lodash.memoize "4.x"
     make-error "1.x"
     semver "7.x"

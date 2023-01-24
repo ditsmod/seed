@@ -1,9 +1,10 @@
-import { controller, Req, Res, route } from '@ditsmod/core';
+import { HTTP_BODY } from '@ditsmod/body-parser';
+import { controller, inject, Res, route } from '@ditsmod/core';
 import { JwtService } from '@ditsmod/jwt';
 
 @controller()
 export class HelloWorldController {
-  constructor(private req: Req, private res: Res, private jwtService: JwtService) {}
+  constructor(private res: Res, private jwtService: JwtService) {}
 
   @route('GET')
   tellHello() {
@@ -11,8 +12,8 @@ export class HelloWorldController {
   }
 
   @route('POST')
-  postHello() {
-    this.res.sendJson(this.req.body);
+  postHello(@inject(HTTP_BODY) body: any) {
+    this.res.sendJson(body);
   }
 
   @route('GET', 'throw-error')

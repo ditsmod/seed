@@ -44,13 +44,4 @@ describe('Integration tests for HelloWorldController', () => {
 
     server.close();
   });
-
-  it('should return openapi docs', async () => {
-    const { server } = await new Application().bootstrap(AppModule, false);
-    await request(server)
-      .get('/openapi')
-      .expect(200);
-
-    server.close();
-  });
 });

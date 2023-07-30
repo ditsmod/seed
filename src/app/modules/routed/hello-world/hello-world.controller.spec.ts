@@ -1,8 +1,8 @@
 import 'reflect-metadata';
 import { Injector, Res } from '@ditsmod/core';
+import { JwtService } from '@ditsmod/jwt';
 
 import { HelloWorldController } from './hello-world.controller';
-import { JwtService } from '@ditsmod/jwt';
 
 describe('HelloWorldController', () => {
   const send = jest.fn();

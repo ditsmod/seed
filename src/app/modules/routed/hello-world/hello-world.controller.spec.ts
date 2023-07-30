@@ -42,7 +42,7 @@ describe('HelloWorldController', () => {
     expect(sendJson).toBeCalledTimes(0);
   });
 
-  it('should send post body back', async () => {
+  it('should get auth token', async () => {
     const signWithSecret = jest.fn();
     const service = { signWithSecret } as unknown as JwtService;
     await expect(helloWorldController.getAuthToken(service)).resolves.not.toThrow();

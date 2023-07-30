@@ -4,7 +4,7 @@ import { JwtService } from '@ditsmod/jwt';
 
 @controller()
 export class HelloWorldController {
-  constructor(private res: Res, private jwtService: JwtService) {}
+  constructor(private res: Res) {}
 
   @route('GET')
   tellHello() {
@@ -22,7 +22,7 @@ export class HelloWorldController {
   }
 
   @route('GET', 'access-token')
-  async getAuthToken() {
-    this.res.sendJson(await this.jwtService.signWithSecret({ one: 1 }));
+  async getAuthToken(jwtService: JwtService) {
+    this.res.sendJson(await jwtService.signWithSecret({ one: 1 }));
   }
 }

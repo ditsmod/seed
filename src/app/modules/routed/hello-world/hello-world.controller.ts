@@ -8,7 +8,7 @@ export class HelloWorldController {
 
   @route('GET')
   tellHello() {
-    this.res.send('Hello World!\n');
+    this.res.send('Hello World!');
   }
 
   @route('POST')

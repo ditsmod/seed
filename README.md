@@ -18,6 +18,8 @@ Start in development mode:
 npm start
 ```
 
+Now, check out OpenAPI docs on [http://localhost:3000/openapi](http://localhost:3000/openapi).
+
 Start in production mode:
 
 ```bash

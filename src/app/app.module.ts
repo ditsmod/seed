@@ -5,7 +5,6 @@ import { JwtModule } from '@ditsmod/jwt';
 import { BodyParserModule } from '@ditsmod/body-parser';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
-import { openapiModuleWithParams } from './modules/services/openapi/openapi.module';
 import { getPort } from './utils/get-port';
 
 const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
@@ -16,16 +15,10 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
 @rootModule({
   httpModule: http,
   serverOptions: {},
-  // Here works the application and serve OpenAPI documentation.
   listenOptions: { host: 'localhost', port: getPort(3000) },
   path: '',
   appends: [HelloWorldModule],
-  imports: [
-    RouterModule,
-    BodyParserModule,
-    jwtModuleWithParams,
-    openapiModuleWithParams
-  ],
+  imports: [RouterModule, BodyParserModule, jwtModuleWithParams],
   controllers: [],
   providersPerApp: [...new Providers().useLogConfig({ level: 'debug' }, { tags: ['route'] })],
   providersPerMod: [],
@@ -35,7 +28,7 @@ const jwtModuleWithParams = JwtModule.withParams({ secret: 'chortisho' });
   resolvedCollisionsPerMod: [],
   resolvedCollisionsPerRou: [],
   resolvedCollisionsPerReq: [],
-  exports: [BodyParserModule, openapiModuleWithParams, jwtModuleWithParams],
+  exports: [BodyParserModule, jwtModuleWithParams],
   extensions: [],
   extensionsMeta: {},
 })

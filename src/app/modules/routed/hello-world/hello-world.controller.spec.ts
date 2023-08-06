@@ -1,6 +1,5 @@
 import 'reflect-metadata';
 import { Injector, Res } from '@ditsmod/core';
-import { JwtService } from '@ditsmod/jwt';
 
 import { HelloWorldController } from './hello-world.controller';
 
@@ -40,14 +39,5 @@ describe('HelloWorldController', () => {
     expect(() => helloWorldController.thrwoError()).toThrow('Here some error occurred');
     expect(send).toBeCalledTimes(0);
     expect(sendJson).toBeCalledTimes(0);
-  });
-
-  it('should get auth token', async () => {
-    const signWithSecret = jest.fn();
-    const service = { signWithSecret } as unknown as JwtService;
-    await expect(helloWorldController.getAuthToken(service)).resolves.not.toThrow();
-    expect(signWithSecret).toBeCalledTimes(1);
-    expect(sendJson).toBeCalledTimes(1);
-    expect(send).toBeCalledTimes(0);
   });
 });

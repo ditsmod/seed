@@ -1,6 +1,5 @@
 import { HTTP_BODY } from '@ditsmod/body-parser';
 import { controller, inject, Res, route } from '@ditsmod/core';
-import { JwtService } from '@ditsmod/jwt';
 
 @controller()
 export class HelloWorldController {
@@ -19,10 +18,5 @@ export class HelloWorldController {
   @route('GET', 'throw-error')
   thrwoError() {
     throw new Error('Here some error occurred');
-  }
-
-  @route('GET', 'access-token')
-  async getAuthToken(jwtService: JwtService) {
-    this.res.sendJson(await jwtService.signWithSecret({ one: 1 }));
   }
 }

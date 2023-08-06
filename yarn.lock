@@ -335,10 +335,12 @@
   dependencies:
     get-body "^1.0.3"
 
-"@ditsmod/core@^2.38.0":
-  version "2.38.1"
-  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.38.1.tgz#481aec21397d29a4ba4a403d5db7a1dac5d66a3b"
-  integrity sha512-aMPyVftQKRm6PHGXI2ZkoaUrqKFGGR5+2D6NyMEH1cLOQBdTo8DXo/JmHEAERwt9rw6RQNpzFL1dUW4irQN4AA==
+"@ditsmod/core@^2.39.0":
+  version "2.39.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.39.0.tgz#2328aefd140a1cdaeb37e30afdd24c8807a1015b"
+  integrity sha512-C9C6vJbHxRdeYn304nGvbKlMXy5urZdSZDz+CapBQFtG6/Gcj2zO2zKhke67K0m5yjVZH00QB5IhEVhHBs8tIQ==
+  dependencies:
+    reflect-metadata "^0.1.13"
 
 "@ditsmod/cors@^2.3.1":
   version "2.3.1"

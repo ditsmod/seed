@@ -1,13 +1,29 @@
 import 'reflect-metadata';
 import * as request from 'supertest';
-import { Application } from '@ditsmod/core';
+import { TestApplication } from '@ditsmod/testing';
+import { Providers, Server } from '@ditsmod/core';
 
 import { AppModule } from '../src/app/app.module';
 
 
 describe('Integration tests for HelloWorldController', () => {
+  let server: Server;
+
+  beforeEach(async () => {
+    jest.restoreAllMocks();
+
+    const obj = await new TestApplication()
+      .initRootModule(AppModule)
+      .setLogLevelForInit('error')
+      .overrideProviders([
+        ...new Providers().useLogConfig({ level: 'fatal' }),
+      ])
+      .bootstrapTestApplication();
+
+    server = obj.server;
+  });
+
   it('controller works', async () => {
-    const { server } = await new Application().bootstrap(AppModule, false);
     await request(server)
       .get('/')
       .expect(200)
@@ -17,7 +33,6 @@ describe('Integration tests for HelloWorldController', () => {
   });
 
   it('should parsed post', async () => {
-    const { server } = await new Application().bootstrap(AppModule, false);
     await request(server)
       .post('/')
       .send({ one: 1 })
@@ -28,7 +43,6 @@ describe('Integration tests for HelloWorldController', () => {
   });
 
   it('should throw an error', async () => {
-    const { server } = await new Application().bootstrap(AppModule, false);
     await request(server)
       .get('/throw-error')
       .expect(500);

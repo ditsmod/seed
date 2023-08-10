@@ -18,7 +18,7 @@ import { getPort } from './utils/get-port';
   appends: [HelloWorldModule],
   imports: [RouterModule, BodyParserModule],
   controllers: [],
-  providersPerApp: [...new Providers().useLogConfig({ level: 'debug' }, { tags: ['route'] })],
+  providersPerApp: [...new Providers().useLogConfig({ level: 'info' }, { tags: ['route'] })],
   providersPerMod: [],
   providersPerRou: [],
   providersPerReq: [],

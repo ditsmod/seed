@@ -328,10 +328,10 @@
   resolved "https://registry.yarnpkg.com/@ditsmod/router/-/router-2.5.0.tgz#f4a43f8f4adedecc346b769cfe6f3692cd3160d0"
   integrity sha512-52V9rtmlNVN29vYAGtiuacj7zkZuYML02dicDfbgU4VTv1ZNj6lCnQPBJ93C/j57JXUQB+OKATmEHAaCB2kafw==
 
-"@ditsmod/testing@^2.0.0-beta.3":
-  version "2.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@ditsmod/testing/-/testing-2.0.0-beta.3.tgz#345bdc8fd371bffdd1627dbb9247e3604e387c44"
-  integrity sha512-7BhPr6UrJ+tLPU+UBk4wlKWQ6L9ts/NDXYG4vMoX8aS2zLXIjM7pPNK88YyBk/4G3zQrklCUGpuiM5/TJgqQVw==
+"@ditsmod/testing@^2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@ditsmod/testing/-/testing-2.0.0-beta.4.tgz#06d02c94743a7361d6d6b695f435e893769a9cf0"
+  integrity sha512-qQafVuR5N7Ld29RjKMBxQuf7/Vdgvk6Vq0wslRDIRyuh9LbVtuUPLj8lMimVgz1NQqaQ92Mh8m5eVZDCtK5rbw==
 
 "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"

@@ -1,4 +1,4 @@
-import * as request from 'supertest';
+import request = require('supertest');
 import { TestApplication } from '@ditsmod/testing';
 import { Providers, Server } from '@ditsmod/core';
 
@@ -11,14 +11,12 @@ describe('Integration tests for HelloWorldController', () => {
   beforeEach(async () => {
     jest.restoreAllMocks();
 
-    const obj = await new TestApplication(AppModule)
+    server = await new TestApplication(AppModule)
       .setLogLevelForInit('error')
       .overrideProviders([
         ...new Providers().useLogConfig({ level: 'fatal' }),
       ])
-      .bootstrapTestApplication();
-
-    server = obj.server;
+      .getServer();
   });
 
   it('controller works', async () => {

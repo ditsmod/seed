@@ -12,12 +12,12 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": true, // https://blogs.msdn.microsoft.com/typescript/2016/12/07/announcing-typescript-2-1/
-    "esModuleInterop": true,
     "declaration": true,
     "allowJs": false
   },
   "include": [
-    "src/**/*"
+    "src",
+    "tests"
   ],
   "compileOnSave": false,
   "buildOnSave": false,

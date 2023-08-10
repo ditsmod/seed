@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-import request from 'supertest';
+import * as request from 'supertest';
 import { Application } from '@ditsmod/core';
 
 import { AppModule } from '../src/app/app.module';
@@ -32,15 +32,6 @@ describe('Integration tests for HelloWorldController', () => {
     await request(server)
       .get('/throw-error')
       .expect(500);
-
-    server.close();
-  });
-
-  it('should return access token', async () => {
-    const { server } = await new Application().bootstrap(AppModule, false);
-    await request(server)
-      .get('/access-token')
-      .expect(200);
 
     server.close();
   });

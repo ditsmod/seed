@@ -8,7 +8,7 @@
     "start": "nodemon src/main.ts",
     "start-prod": "node dist/main.js",
     "build": "rimraf dist/* && tsc",
-    "test": "jest --silent"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Костя Третяк",

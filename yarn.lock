@@ -315,10 +315,10 @@
   dependencies:
     get-body "^1.0.3"
 
-"@ditsmod/core@^2.40.0":
-  version "2.40.0"
-  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.40.0.tgz#a084faae445e6e4cc7ff697bf857cb6281e48728"
-  integrity sha512-KQQyNTTBwP/iGdc+jtIeK8sL28Xba8P/0MkJqo65c71l2YZK8SNSgThI5IEQ0QmUdTeb6Si5R6BN2r8pQBQ1aA==
+"@ditsmod/core@^2.41.0":
+  version "2.41.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.41.0.tgz#649c4d1593a6fe7c23273e3de15bd24506fa9f56"
+  integrity sha512-aWXmZCG4clhLJpLEurVxGokuNVkWD2dIbIxnAkfwSpXI/P34AQ6D7fX0g2WyXnChpWJMlpOdAM2KUAN/DY1YUA==
   dependencies:
     "@ts-stack/chain-error" "^1.2.0"
     reflect-metadata "^0.1.13"

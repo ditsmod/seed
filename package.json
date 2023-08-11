@@ -2,7 +2,7 @@
   "name": "ditsmod-seed",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index",
+  "main": "dist/src/index",
   "types": "src/index",
   "scripts": {
     "start": "nodemon src/main.ts",

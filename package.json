@@ -2,11 +2,11 @@
   "name": "ditsmod-seed",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/src/index",
+  "main": "dist/index",
   "types": "src/index",
   "scripts": {
     "start": "nodemon src/main.ts",
-    "start-prod": "node dist/src/main.js",
+    "start-prod": "node dist/main.js",
     "build": "rimraf dist/* && tsc -p tsconfig.build.json",
     "test": "jest"
   },

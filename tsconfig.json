@@ -16,7 +16,8 @@
     "allowJs": false
   },
   "include": [
-    "src"
+    "src",
+    "tests"
   ],
   "compileOnSave": false,
   "buildOnSave": false,

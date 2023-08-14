@@ -6,10 +6,6 @@ import { BodyParserModule } from '@ditsmod/body-parser';
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
 import { checkCliAndSetPort } from './utils/check-cli-and-set-port';
 
-
-/**
- * Any one of these options are optional.
- */
 @rootModule({
   httpModule: http,
   serverOptions: {},

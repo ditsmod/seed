@@ -316,10 +316,10 @@
   dependencies:
     get-body "^1.0.3"
 
-"@ditsmod/core@^2.41.0":
-  version "2.41.0"
-  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.41.0.tgz#649c4d1593a6fe7c23273e3de15bd24506fa9f56"
-  integrity sha512-aWXmZCG4clhLJpLEurVxGokuNVkWD2dIbIxnAkfwSpXI/P34AQ6D7fX0g2WyXnChpWJMlpOdAM2KUAN/DY1YUA==
+"@ditsmod/core@^2.42.0":
+  version "2.42.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/core/-/core-2.42.0.tgz#dbc67a49aa5e59912efc4c419be7e42b00dc81b2"
+  integrity sha512-tgnDDGd18fPIVBYQuJ1LFqoG5yi+2F1SlSfMiF0eAnq67i6EVy4+ZHBg2XFFSLYtLWksTE9uvgCqzBm3C4xSzg==
   dependencies:
     "@ts-stack/chain-error" "^1.2.0"
     reflect-metadata "^0.1.13"
@@ -329,10 +329,10 @@
   resolved "https://registry.yarnpkg.com/@ditsmod/router/-/router-2.5.0.tgz#f4a43f8f4adedecc346b769cfe6f3692cd3160d0"
   integrity sha512-52V9rtmlNVN29vYAGtiuacj7zkZuYML02dicDfbgU4VTv1ZNj6lCnQPBJ93C/j57JXUQB+OKATmEHAaCB2kafw==
 
-"@ditsmod/testing@^2.0.0-beta.4":
-  version "2.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@ditsmod/testing/-/testing-2.0.0-beta.5.tgz#3b3cdc9eefdb21b05cdbe5facd35009ca3777dc0"
-  integrity sha512-4jjD6jqIS2JfMxaHC/DrdGgM9eSdFA3WZHhdEwvc/5iykrEqgnOm7+oe2IcDUMKZaKFxoZjW+Gte7GzHJNrZvw==
+"@ditsmod/testing@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ditsmod/testing/-/testing-2.0.0.tgz#b8312186439e71ae56331c77befd82becfc4ba27"
+  integrity sha512-sdtpv8pe2mGbgmijHD5YmDCdfhr+/0p01LXdHkBVJkC1IbSbrTct3Ac7yLNPAYpSjxclpaMAiEL4cr8BfL+chQ==
 
 "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"

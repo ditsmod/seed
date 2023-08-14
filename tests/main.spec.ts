@@ -12,7 +12,7 @@ describe('Integration tests for HelloWorldController', () => {
     jest.restoreAllMocks();
 
     server = await new TestApplication(AppModule)
-      .setLogLevelForInit('error')
+      .setInitLogLevel('error')
       .overrideProviders([
         ...new Providers().useLogConfig({ level: 'fatal' }),
       ])

@@ -10,6 +10,10 @@
       "name": "Run yarn start",
       "command": "yarn start",
       "request": "launch",
+      "outFiles": [
+        "${workspaceFolder}/node_modules/@ditsmod/**/*.js",
+        "${workspaceFolder}/src/**/*.js"
+      ],
       "type": "node-terminal"
     },
     {

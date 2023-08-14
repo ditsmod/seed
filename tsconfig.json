@@ -5,8 +5,6 @@
     "moduleResolution": "node",
     "outDir": "dist",
     "sourceMap": true,
-    // "rootDir": ".",
-    // "sourceRoot": ".",
     // "skipLibCheck": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -20,6 +18,5 @@
     "tests"
   ],
   "compileOnSave": false,
-  "buildOnSave": false,
-  "atom": { "rewriteTsconfig": false }
+  "buildOnSave": false
 }

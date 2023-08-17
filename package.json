@@ -15,11 +15,11 @@
   "license": "MIT",
   "dependencies": {
     "@ditsmod/body-parser": "^2.11.0",
-    "@ditsmod/core": "^2.42.0",
+    "@ditsmod/core": "^2.43.0",
     "@ditsmod/router": "^2.5.0"
   },
   "devDependencies": {
-    "@ditsmod/testing": "^2.0.0",
+    "@ditsmod/testing": "^2.1.0",
     "@types/eslint": "^8.44.1",
     "@types/jest": "^29.5.3",
     "@types/node": "^18.11.18",

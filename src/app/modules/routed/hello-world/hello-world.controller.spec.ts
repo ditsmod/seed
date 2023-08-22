@@ -10,7 +10,8 @@ describe('HelloWorldController', () => {
   let helloWorldController: HelloWorldController;
 
   beforeEach(() => {
-    jest.restoreAllMocks();
+    send.mockRestore();
+    sendJson.mockRestore();
 
     const injector = Injector.resolveAndCreate([
       HelloWorldController,

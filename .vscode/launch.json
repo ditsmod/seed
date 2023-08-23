@@ -7,8 +7,8 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run yarn start",
-      "command": "yarn start",
+      "name": "npm run start",
+      "command": "npm run start",
       "request": "launch",
       "outFiles": [
         "${workspaceFolder}/node_modules/@ditsmod/**/*.js",

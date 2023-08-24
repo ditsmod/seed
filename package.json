@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@ditsmod/body-parser": "^2.11.0",
-    "@ditsmod/core": "^2.45.1",
+    "@ditsmod/core": "^2.46.0",
     "@ditsmod/router": "^2.5.0"
   },
   "devDependencies": {

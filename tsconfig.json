@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "es2022",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "outDir": "dist",
     "sourceMap": true,
     "composite": true,
@@ -13,13 +13,13 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": true,
-    "allowJs": false
+    "allowJs": false,
+    "paths": {
+      "#src/*": ["./src/*"]
+    }
   },
   "include": [
     "src",
     "test"
-  ],
-  "exclude": [
-    "**/node_modules/*"
   ]
 }

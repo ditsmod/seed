@@ -1,26 +1,31 @@
 {
   "name": "ditsmod-seed",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "dist/src/index",
   "types": "dist/src/index",
   "scripts": {
-    "start": "nodemon src/main.ts",
+    "start": "npm run build && node dist/main.js",
     "start-prod": "node dist/src/main.js",
     "build": "tsc -b tsconfig.build.json",
-    "test": "npm run build && jest",
-    "clean": "rimraf dist/*"
+    "test": "tsc -b tsconfig.test.json && npm run esm-jest",
+    "esm-jest": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "clean": "rimraf dist*"
+  },
+  "imports": {
+    "#src/*": "./dist/*"
   },
   "keywords": [],
   "author": "Костя Третяк",
   "license": "MIT",
   "dependencies": {
-    "@ditsmod/body-parser": "^2.11.0",
-    "@ditsmod/core": "^2.46.0",
-    "@ditsmod/router": "^2.5.0"
+    "@ditsmod/body-parser": "^2.12.1",
+    "@ditsmod/core": "^2.47.0",
+    "@ditsmod/router": "^2.6.0"
   },
   "devDependencies": {
-    "@ditsmod/testing": "^2.3.0",
+    "@ditsmod/testing": "^2.4.0",
     "@types/eslint": "^8.44.1",
     "@types/jest": "^29.5.3",
     "@types/node": "^20.5.1",

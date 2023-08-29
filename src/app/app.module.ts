@@ -2,7 +2,7 @@ import { Providers, rootModule } from '@ditsmod/core';
 import { RouterModule } from '@ditsmod/router';
 import { BodyParserModule } from '@ditsmod/body-parser';
 
-import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module';
+import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module.js';
 
 @rootModule({
   appends: [HelloWorldModule],

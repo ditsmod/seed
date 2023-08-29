@@ -1,7 +1,7 @@
 import { Application } from '@ditsmod/core';
 
-import { AppModule } from './app/app.module';
-import { checkCliAndSetPort } from './app/utils/check-cli-and-set-port';
+import { AppModule } from './app/app.module.js';
+import { checkCliAndSetPort } from './app/utils/check-cli-and-set-port.js';
 
 new Application().bootstrap(AppModule).then((app) => {
   const port = checkCliAndSetPort(3000);

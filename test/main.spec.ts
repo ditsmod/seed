@@ -1,8 +1,9 @@
 import request = require('supertest');
 import { TestApplication } from '@ditsmod/testing';
 import { Providers, Server } from '@ditsmod/core';
+import { jest } from '@jest/globals';
 
-import { AppModule } from '../src/app/app.module';
+import { AppModule } from '#src/app/app.module.js';
 
 describe('Integration tests for HelloWorldController', () => {
   let server: Server;

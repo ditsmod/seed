@@ -15,6 +15,12 @@ npm i
 Start in development mode:
 
 ```bash
+# From first terminal.
+# This compiles TS to JS.
+npm run watch
+
+# From second terminal.
+# This starts the web server and restarts when changes are made.
 npm start
 ```
 

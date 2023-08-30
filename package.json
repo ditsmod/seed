@@ -3,8 +3,6 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/src/index",
-  "types": "dist/src/index",
   "scripts": {
     "start": "nodemon dist/main.js",
     "start-prod": "node dist/main.js",

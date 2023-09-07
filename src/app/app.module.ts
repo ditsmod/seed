@@ -8,7 +8,7 @@ import { HelloWorldModule } from './modules/routed/hello-world/hello-world.modul
   appends: [HelloWorldModule],
   imports: [RouterModule, BodyParserModule],
   controllers: [],
-  providersPerApp: [...new Providers().useLogConfig({ level: 'info' }, { tags: ['route'] })],
+  providersPerApp: [...new Providers().useLogConfig({ level: 'info' })],
   providersPerMod: [],
   providersPerRou: [],
   providersPerReq: [],

@@ -9,7 +9,7 @@
     "build": "tsc -b tsconfig.build.json",
     "watch": "npm run build -- --watch",
     "test": "tsc -b tsconfig.test.json && npm run esm-jest",
-    "esm-jest": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "esm-jest": "node --experimental-vm-modules --no-warnings=ExperimentalWarning node_modules/jest/bin/jest.js",
     "clean": "rimraf dist*"
   },
   "imports": {
@@ -20,11 +20,11 @@
   "license": "MIT",
   "dependencies": {
     "@ditsmod/body-parser": "^2.12.1",
-    "@ditsmod/core": "^2.47.0",
+    "@ditsmod/core": "^2.48.0",
     "@ditsmod/router": "^2.6.0"
   },
   "devDependencies": {
-    "@ditsmod/testing": "^2.4.0",
+    "@ditsmod/testing": "^2.5.0",
     "@types/eslint": "^8.44.2",
     "@types/jest": "^29.5.4",
     "@types/node": "^20.5.7",

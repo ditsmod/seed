@@ -16,7 +16,7 @@ import { HelloWorldModule } from './modules/routed/hello-world/hello-world.modul
   resolvedCollisionsPerMod: [],
   resolvedCollisionsPerRou: [],
   resolvedCollisionsPerReq: [],
-  exports: [BodyParserModule],
+  exports: [RouterModule, BodyParserModule],
   extensions: [],
   extensionsMeta: {},
 })

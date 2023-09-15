@@ -14,6 +14,7 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": true,
+    "strictPropertyInitialization": false,
     "paths": {
       "#src/*": ["./src/*"]
     }

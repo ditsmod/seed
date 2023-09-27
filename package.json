@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "nodemon dist/main.js",
+    "start": "nodemon --enable-source-maps dist/main.js",
     "start-prod": "node dist/main.js",
     "build": "tsc -b tsconfig.build.json",
     "watch": "npm run build -- --watch",
     "test": "tsc -b tsconfig.test.json && npm run esm-jest",
-    "esm-jest": "node --experimental-vm-modules --no-warnings=ExperimentalWarning node_modules/jest/bin/jest.js",
+    "esm-jest": "node --experimental-vm-modules --no-warnings=ExperimentalWarning --enable-source-maps node_modules/jest/bin/jest.js",
     "clean": "rimraf dist*"
   },
   "imports": {

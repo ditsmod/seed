@@ -1,12 +1,12 @@
 import { Providers, rootModule } from '@ditsmod/core';
-import { RouterModule } from '@ditsmod/router';
+import { RoutingModule } from '@ditsmod/routing';
 import { BodyParserModule } from '@ditsmod/body-parser';
 
 import { HelloWorldModule } from './modules/routed/hello-world/hello-world.module.js';
 
 @rootModule({
   appends: [HelloWorldModule],
-  imports: [RouterModule, BodyParserModule],
+  imports: [RoutingModule, BodyParserModule],
   controllers: [],
   providersPerApp: [...new Providers().useLogConfig({ level: 'info' })],
   providersPerMod: [],
@@ -16,7 +16,7 @@ import { HelloWorldModule } from './modules/routed/hello-world/hello-world.modul
   resolvedCollisionsPerMod: [],
   resolvedCollisionsPerRou: [],
   resolvedCollisionsPerReq: [],
-  exports: [RouterModule, BodyParserModule],
+  exports: [RoutingModule, BodyParserModule],
   extensions: [],
   extensionsMeta: {},
 })

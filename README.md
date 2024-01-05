@@ -1,6 +1,6 @@
 ## Description
 
-This is [@ditsmod/ditsmod](https://github.com/ditsmod/ditsmod) seed project.
+This is [Ditsmod](https://github.com/ditsmod/ditsmod) seeds.
 
 ## Usage
 

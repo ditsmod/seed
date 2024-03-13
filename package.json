@@ -14,7 +14,7 @@
     "postinstall": "npm run clean"
   },
   "imports": {
-    "#src/*": "./dist/*"
+    "#app/*": "./dist/app/*"
   },
   "keywords": [],
   "author": "Your Name Here",

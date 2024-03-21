@@ -23,22 +23,22 @@ describe('HelloWorldController', () => {
 
   it('should say "Hello World!"', () => {
     expect(() => helloWorldController.tellHello()).not.toThrow();
-    expect(send).toBeCalledWith('Hello World!');
-    expect(send).toBeCalledTimes(1);
-    expect(sendJson).toBeCalledTimes(0);
+    expect(send).toHaveBeenCalledWith('Hello World!');
+    expect(send).toHaveBeenCalledTimes(1);
+    expect(sendJson).toHaveBeenCalledTimes(0);
   });
 
   it('should send post body back', () => {
     const postBody = {};
     expect(() => helloWorldController.postHello(postBody)).not.toThrow();
-    expect(sendJson).toBeCalledWith(postBody);
-    expect(send).toBeCalledTimes(0);
-    expect(sendJson).toBeCalledTimes(1);
+    expect(sendJson).toHaveBeenCalledWith(postBody);
+    expect(send).toHaveBeenCalledTimes(0);
+    expect(sendJson).toHaveBeenCalledTimes(1);
   });
 
   it('should throw an error', () => {
     expect(() => helloWorldController.thrwoError()).toThrow('Here some error occurred');
-    expect(send).toBeCalledTimes(0);
-    expect(sendJson).toBeCalledTimes(0);
+    expect(send).toHaveBeenCalledTimes(0);
+    expect(sendJson).toHaveBeenCalledTimes(0);
   });
 });

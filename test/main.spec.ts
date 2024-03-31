@@ -1,5 +1,4 @@
-import request = require('supertest');
-import type { SuperTest } from 'supertest';
+import request from 'supertest';
 import { TestApplication } from '@ditsmod/testing';
 import { Server } from '@ditsmod/core';
 import { jest } from '@jest/globals';
@@ -8,7 +7,7 @@ import { AppModule } from '#app/app.module.js';
 
 describe('Integration tests for HelloWorldController', () => {
   let server: Server;
-  let superTest: SuperTest<request.Test>;
+  let superTest: ReturnType<typeof request>;
 
   beforeAll(async () => {
     jest.restoreAllMocks();

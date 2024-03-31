@@ -11,7 +11,7 @@ describe('Integration tests for HelloWorldController', () => {
 
   beforeAll(async () => {
     jest.restoreAllMocks();
-    server = await new TestApplication(AppModule).getServer();
+    server = await new TestApplication(AppModule, { path: 'api' }).getServer();
     testAgent = request(server);
   });
 
@@ -20,26 +20,26 @@ describe('Integration tests for HelloWorldController', () => {
   });
 
   it('controller works', async () => {
-    await testAgent.get('/hello').expect(200).expect('Hello World!');
+    await testAgent.get('/api/hello').expect(200).expect('Hello World!');
   });
 
   it('should parsed post', async () => {
-    await testAgent.post('/body').send({ one: 1 }).expect(200).expect({ one: 1 });
+    await testAgent.post('/api/body').send({ one: 1 }).expect(200).expect({ one: 1 });
   });
 
   it('should throw an error', async () => {
-    await testAgent.get('/throw-error').expect(500);
+    await testAgent.get('/api/throw-error').expect(500);
   });
 
   it('controller works', async () => {
-    await testAgent.get('/hello2').expect(200).expect('Hello World!');
+    await testAgent.get('/api/hello2').expect(200).expect('Hello World!');
   });
 
   it('should parsed post', async () => {
-    await testAgent.post('/body2').send({ one: 1 }).expect(200).expect({ one: 1 });
+    await testAgent.post('/api/body2').send({ one: 1 }).expect(200).expect({ one: 1 });
   });
 
   it('should throw an error', async () => {
-    await testAgent.get('/throw-error2').expect(500);
+    await testAgent.get('/api/throw-error2').expect(500);
   });
 });

@@ -1,28 +1,28 @@
 import { Injector, Res } from '@ditsmod/core';
 import { jest } from '@jest/globals';
 
-import { HelloWorldController } from './hello-world.controller.js';
+import { DefaultController } from './default.controller.js';
 
-describe('HelloWorldController', () => {
+describe('DefaultController', () => {
   const send = jest.fn();
   const sendJson = jest.fn();
   const res = { send, sendJson } as unknown as Res;
-  let helloWorldController: HelloWorldController;
+  let defaultController: DefaultController;
 
   beforeEach(() => {
     send.mockRestore();
     sendJson.mockRestore();
 
     const injector = Injector.resolveAndCreate([
-      HelloWorldController,
+      DefaultController,
       { token: Res, useValue: res }
     ]);
 
-    helloWorldController = injector.get(HelloWorldController);
+    defaultController = injector.get(DefaultController);
   });
 
   it('should say "Hello World!"', () => {
-    expect(() => helloWorldController.tellHello()).not.toThrow();
+    expect(() => defaultController.tellHello()).not.toThrow();
     expect(send).toHaveBeenCalledWith('Hello World!');
     expect(send).toHaveBeenCalledTimes(1);
     expect(sendJson).toHaveBeenCalledTimes(0);
@@ -30,14 +30,14 @@ describe('HelloWorldController', () => {
 
   it('should send post body back', () => {
     const postBody = {};
-    expect(() => helloWorldController.postHello(postBody)).not.toThrow();
+    expect(() => defaultController.postHello(postBody)).not.toThrow();
     expect(sendJson).toHaveBeenCalledWith(postBody);
     expect(send).toHaveBeenCalledTimes(0);
     expect(sendJson).toHaveBeenCalledTimes(1);
   });
 
   it('should throw an error', () => {
-    expect(() => helloWorldController.thrwoError()).toThrow('Here some error occurred');
+    expect(() => defaultController.thrwoError()).toThrow('Here some error occurred');
     expect(send).toHaveBeenCalledTimes(0);
     expect(sendJson).toHaveBeenCalledTimes(0);
   });

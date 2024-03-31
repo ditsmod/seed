@@ -7,12 +7,12 @@ import { AppModule } from '#app/app.module.js';
 
 describe('Integration tests for HelloWorldController', () => {
   let server: Server;
-  let superTest: ReturnType<typeof request>;
+  let testAgent: ReturnType<typeof request>;
 
   beforeAll(async () => {
     jest.restoreAllMocks();
     server = await new TestApplication(AppModule).getServer();
-    superTest = request(server);
+    testAgent = request(server);
   });
 
   afterAll(() => {
@@ -20,26 +20,26 @@ describe('Integration tests for HelloWorldController', () => {
   });
 
   it('controller works', async () => {
-    await superTest.get('/hello').expect(200).expect('Hello World!');
+    await testAgent.get('/hello').expect(200).expect('Hello World!');
   });
 
   it('should parsed post', async () => {
-    await superTest.post('/body').send({ one: 1 }).expect(200).expect({ one: 1 });
+    await testAgent.post('/body').send({ one: 1 }).expect(200).expect({ one: 1 });
   });
 
   it('should throw an error', async () => {
-    await superTest.get('/throw-error').expect(500);
+    await testAgent.get('/throw-error').expect(500);
   });
 
   it('controller works', async () => {
-    await superTest.get('/hello2').expect(200).expect('Hello World!');
+    await testAgent.get('/hello2').expect(200).expect('Hello World!');
   });
 
   it('should parsed post', async () => {
-    await superTest.post('/body2').send({ one: 1 }).expect(200).expect({ one: 1 });
+    await testAgent.post('/body2').send({ one: 1 }).expect(200).expect({ one: 1 });
   });
 
   it('should throw an error', async () => {
-    await superTest.get('/throw-error2').expect(500);
+    await testAgent.get('/throw-error2').expect(500);
   });
 });

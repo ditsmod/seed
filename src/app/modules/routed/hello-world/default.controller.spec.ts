@@ -22,7 +22,7 @@ describe('DefaultController', () => {
   });
 
   it('should say "Hello World!"', () => {
-    expect(() => defaultController.tellHello()).not.toThrow();
+    expect(() => defaultController.tellHello(res)).not.toThrow();
     expect(send).toHaveBeenCalledWith('Hello World!');
     expect(send).toHaveBeenCalledTimes(1);
     expect(sendJson).toHaveBeenCalledTimes(0);
@@ -30,7 +30,7 @@ describe('DefaultController', () => {
 
   it('should send post body back', () => {
     const postBody = {};
-    expect(() => defaultController.postHello(postBody)).not.toThrow();
+    expect(() => defaultController.postHello(res, postBody)).not.toThrow();
     expect(sendJson).toHaveBeenCalledWith(postBody);
     expect(send).toHaveBeenCalledTimes(0);
     expect(sendJson).toHaveBeenCalledTimes(1);

@@ -34,14 +34,14 @@ npm run start-prod
 From second terminal, check work:
 
 ```bash
-curl -i localhost:3000/hello
-curl -i localhost:3000/throw-error
-curl -i localhost:3000/body -d '{"one":1}' -H 'content-type: application/json'
+curl -i localhost:3000/api/hello
+curl -i localhost:3000/api/throw-error
+curl -i localhost:3000/api/body -d '{"one":1}' -H 'content-type: application/json'
 
 # Use controller as singleton
-curl -i localhost:3000/hello2
-curl -i localhost:3000/throw-error2
-curl -i localhost:3000/body2 -d '{"one":1}' -H 'content-type: application/json'
+curl -i localhost:3000/api/hello2
+curl -i localhost:3000/api/throw-error2
+curl -i localhost:3000/api/body2 -d '{"one":1}' -H 'content-type: application/json'
 ```
 
 ## Example

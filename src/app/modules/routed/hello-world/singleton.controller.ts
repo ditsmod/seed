@@ -4,14 +4,12 @@ import { controller, RequestContext, route, SingletonRequestContext } from '@dit
 export class SingletonController {
   @route('GET', 'hello2')
   tellHello(ctx: RequestContext) {
-    ctx.nodeRes.setHeader('Content-Type', 'text/plain; charset=utf-8');
-    ctx.nodeRes.end('Hello World!');
+    ctx.send('Hello World!');
   }
 
   @route('POST', 'body2')
   postHello(ctx: SingletonRequestContext) {
-    ctx.nodeRes.setHeader('Content-Type', 'application/json; charset=utf-8');
-    ctx.nodeRes.end(JSON.stringify(ctx.body));
+    ctx.sendJson(ctx.body);
   }
 
   @route('GET', 'throw-error2')

@@ -31,15 +31,15 @@ describe('Integration tests for HelloWorldController', () => {
     await testAgent.get('/api/throw-error').expect(500);
   });
 
-  it('controller works', async () => {
+  it('singleton controller works', async () => {
     await testAgent.get('/api/hello2').expect(200).expect('Hello World!');
   });
 
-  it('should parsed post', async () => {
+  it('singleton controller should parsed post', async () => {
     await testAgent.post('/api/body2').send({ one: 1 }).expect(200).expect({ one: 1 });
   });
 
-  it('should throw an error', async () => {
+  it('singleton controller should throw an error', async () => {
     await testAgent.get('/api/throw-error2').expect(500);
   });
 });

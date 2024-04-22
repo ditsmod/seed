@@ -10,8 +10,7 @@
     "watch": "npm run build -- --watch",
     "test": "tsc -b tsconfig.test.json && npm run esm-jest",
     "esm-jest": "node --experimental-vm-modules --no-warnings=ExperimentalWarning --enable-source-maps node_modules/jest/bin/jest.js",
-    "clean": "rimraf dist*",
-    "postinstall": "npm run clean"
+    "clean": "rimraf dist*"
   },
   "imports": {
     "#app/*": "./dist/app/*"

@@ -1,7 +1,8 @@
 import request from 'supertest';
 import { TestApplication } from '@ditsmod/testing';
-import { Server } from '@ditsmod/core';
+import { Providers, Server } from '@ditsmod/core';
 import { jest } from '@jest/globals';
+import { BodyParserConfig } from '@ditsmod/body-parser';
 
 import { AppModule } from '#app/app.module.js';
 
@@ -11,7 +12,9 @@ describe('Integration tests for HelloWorldController', () => {
 
   beforeAll(async () => {
     jest.restoreAllMocks();
-    server = await new TestApplication(AppModule, { path: 'api' }).getServer();
+    const providers = new Providers().useValue<BodyParserConfig>(BodyParserConfig, { jsonOptions: { limit: '9b' } });
+
+    server = await new TestApplication(AppModule, { path: 'api' }).overrideProviders([...providers]).getServer();
     testAgent = request(server);
   });
 
@@ -27,6 +30,10 @@ describe('Integration tests for HelloWorldController', () => {
     await testAgent.post('/api/body').send({ one: 1 }).expect(200).expect({ one: 1 });
   });
 
+  it('should throws an error when the set request body limit is exceeded', async () => {
+    await testAgent.post('/api/body').send({ one: 1, two: 2 }).expect(500);
+  });
+
   it('should throw an error', async () => {
     await testAgent.get('/api/throw-error').expect(500);
   });
@@ -37,6 +44,10 @@ describe('Integration tests for HelloWorldController', () => {
 
   it('singleton controller should parsed post', async () => {
     await testAgent.post('/api/body2').send({ one: 1 }).expect(200).expect({ one: 1 });
+  });
+
+  it('singleton should throws an error when the set request body limit is exceeded', async () => {
+    await testAgent.post('/api/body2').send({ one: 1, two: 2 }).expect(500);
   });
 
   it('singleton controller should throw an error', async () => {

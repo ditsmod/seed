@@ -1,6 +1,6 @@
 import request from 'supertest';
 import { TestApplication } from '@ditsmod/testing';
-import { Providers, Server } from '@ditsmod/core';
+import { Providers, Server, Status } from '@ditsmod/core';
 import { jest } from '@jest/globals';
 import { BodyParserConfig } from '@ditsmod/body-parser';
 
@@ -31,11 +31,11 @@ describe('Integration tests for HelloWorldController', () => {
   });
 
   it('should throws an error when the set request body limit is exceeded', async () => {
-    await testAgent.post('/api/body').send({ one: 1, two: 2 }).expect(500);
+    await testAgent.post('/api/body').send({ one: 1, two: 2 }).expect(Status.PAYLOAD_TO_LARGE);
   });
 
   it('should throw an error', async () => {
-    await testAgent.get('/api/throw-error').expect(500);
+    await testAgent.get('/api/throw-error').expect(Status.INTERNAL_SERVER_ERROR);
   });
 
   it('singleton controller works', async () => {
@@ -47,10 +47,10 @@ describe('Integration tests for HelloWorldController', () => {
   });
 
   it('singleton should throws an error when the set request body limit is exceeded', async () => {
-    await testAgent.post('/api/body2').send({ one: 1, two: 2 }).expect(500);
+    await testAgent.post('/api/body2').send({ one: 1, two: 2 }).expect(Status.PAYLOAD_TO_LARGE);
   });
 
   it('singleton controller should throw an error', async () => {
-    await testAgent.get('/api/throw-error2').expect(500);
+    await testAgent.get('/api/throw-error2').expect(Status.INTERNAL_SERVER_ERROR);
   });
 });

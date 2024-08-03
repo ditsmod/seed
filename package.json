@@ -10,6 +10,7 @@
     "watch": "npm run build -- --watch",
     "test": "tsc -b tsconfig.e2e.json && npm run esm-jest",
     "esm-jest": "node --experimental-vm-modules --no-warnings=ExperimentalWarning --enable-source-maps node_modules/jest/bin/jest.js",
+    "lint": "eslint .",
     "clean": "rimraf dist*"
   },
   "imports": {
@@ -28,12 +29,11 @@
   },
   "devDependencies": {
     "@ditsmod/testing": "^2.9.0",
-    "@types/eslint": "^8.56.11",
+    "@eslint/js": "^9.8.0",
+    "@types/eslint__js": "^8.42.3",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.14",
     "@types/supertest": "^6.0.2",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.57.0",
     "jest": "^29.7.0",
     "nodemon": "^3.1.4",
@@ -41,6 +41,7 @@
     "rimraf": "^5.0.10",
     "supertest": "^6.3.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0"
   }
 }

@@ -6,7 +6,7 @@ import { HelloWorldModule } from './modules/routed/hello-world/hello-world.modul
 
 @rootModule({
   providersPerApp: new Providers()
-    .useLogConfig({ level: 'info' })
+    .useLogConfig({ level: 'debug' })
     .useValue<BodyParserConfig>(BodyParserConfig, {
       jsonOptions: { limit: '100kb' },
       urlencodedOptions: { extended: true },

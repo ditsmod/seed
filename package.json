@@ -24,15 +24,15 @@
   },
   "dependencies": {
     "@ditsmod/body-parser": "^2.16.0",
-    "@ditsmod/core": "^2.55.0",
+    "@ditsmod/core": "^2.55.1",
     "@ditsmod/routing": "^2.3.0"
   },
   "devDependencies": {
     "@ditsmod/testing": "^2.10.1",
-    "@eslint/js": "^9.8.0",
+    "@eslint/js": "^9.9.1",
     "@types/eslint__js": "^8.42.3",
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.14.14",
+    "@types/node": "^20.16.1",
     "@types/supertest": "^6.0.2",
     "eslint": "^8.57.0",
     "jest": "^29.7.0",
@@ -42,6 +42,6 @@
     "supertest": "^6.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
-    "typescript-eslint": "^8.0.1"
+    "typescript-eslint": "^8.2.0"
   }
 }

@@ -32,7 +32,7 @@ curl -i localhost:3000/api/hello
 
 Or simply by going to [http://localhost:3000/api/hello](http://localhost:3000/api/hello) in your browser.
 
-By default, the application works with `debug` log level. You can change it in the file `apps/backend/src/app/app.module.ts`.
+By default, the application works with `debug` log level. You can change it in the file `src/app/app.module.ts`.
 
 Start in production mode:
 

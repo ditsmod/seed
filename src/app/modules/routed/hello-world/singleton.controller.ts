@@ -1,10 +1,14 @@
 import { controller, RequestContext, route, SingletonRequestContext } from '@ditsmod/core';
+import { SomeService } from './some.service.js';
 
 @controller({ isSingleton: true })
 export class SingletonController {
+  constructor(private someService: SomeService) {}
+
   @route('GET', 'hello2')
   tellHello(ctx: RequestContext) {
-    ctx.send('Hello World!');
+    const msg = this.someService.getMsg();
+    ctx.send(msg);
   }
 
   @route('POST', 'body2')

@@ -2,6 +2,7 @@ import { Injector, Res } from '@ditsmod/core';
 import { jest } from '@jest/globals';
 
 import { DefaultController } from './default.controller.js';
+import { SomeService } from './some.service.js';
 
 describe('DefaultController', () => {
   const send = jest.fn();
@@ -22,7 +23,8 @@ describe('DefaultController', () => {
   });
 
   it('should say "Hello World!"', () => {
-    expect(() => defaultController.tellHello(res)).not.toThrow();
+    const someService = new SomeService();
+    expect(() => defaultController.tellHello(res, someService)).not.toThrow();
     expect(send).toHaveBeenCalledWith('Hello World!');
     expect(send).toHaveBeenCalledTimes(1);
     expect(sendJson).toHaveBeenCalledTimes(0);

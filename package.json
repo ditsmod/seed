@@ -23,9 +23,9 @@
     "node": ">= 18.14.0"
   },
   "dependencies": {
-    "@ditsmod/body-parser": "^2.17.0",
-    "@ditsmod/core": "^2.56.0",
-    "@ditsmod/routing": "^2.4.0"
+    "@ditsmod/body-parser": "^2.17.1",
+    "@ditsmod/core": "^2.56.1",
+    "@ditsmod/routing": "^2.4.1"
   },
   "devDependencies": {
     "@ditsmod/testing": "^2.11.0",

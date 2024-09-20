@@ -9,7 +9,7 @@ import { HelloWorldModule } from './modules/routed/hello-world/hello-world.modul
   imports: [RoutingModule, BodyParserModule],
   exports: [RoutingModule, BodyParserModule],
   providersPerApp: new Providers()
-    .useLogConfig({ level: 'debug' })
+    .useLogConfig({ level: 'info' })
     .useValue<BodyParserConfig>(BodyParserConfig, {
       jsonOptions: { limit: '100kb' },
       urlencodedOptions: { extended: true },

@@ -3,7 +3,7 @@
     "strict": true,
     "target": "es2022",
     "module": "nodenext",
-    "moduleResolution": "nodenext",
+    // "moduleResolution": "nodenext",
     "noEmit": true,
     "sourceMap": true,
     "composite": true,

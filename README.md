@@ -1,13 +1,13 @@
 ## Description
 
-This is [Ditsmod](https://github.com/ditsmod/ditsmod) seeds.
+This is [Ditsmod](https://github.com/ditsmod/ditsmod) starter.
 
 ## Usage
 
 From first terminal:
 
 ```bash
-git clone --depth 1 https://github.com/ditsmod/seed.git my-app
+git clone --depth 1 https://github.com/ditsmod/starter.git my-app
 cd my-app
 npm i
 ```

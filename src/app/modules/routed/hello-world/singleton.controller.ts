@@ -1,7 +1,8 @@
-import { controller, RequestContext, route, SingletonRequestContext } from '@ditsmod/core';
+import { controller, RequestContext, SingletonRequestContext } from '@ditsmod/core';
+import { route } from '@ditsmod/routing';
 import { SomeService } from './some.service.js';
 
-@controller({ isSingleton: true })
+@controller({ scope: 'module' })
 export class SingletonController {
   constructor(private someService: SomeService) {}
 
